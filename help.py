@@ -1,38 +1,28 @@
-import sys, subprocess, time
-import nltk.corpus
-import nltk.tokenize.punkt
-from nltk.corpus import wordnet
+from subprocess import check_output
+from sys import argv
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 from string import punctuation
+from difflib import get_close_matches
+
+#FIRST TIME ONLY
+#import nltk
+#nltk.download('stopwords')
+
 
 
 class sentenceComparator:
 
     def __init__(self):
-        self.stopwords = nltk.corpus.stopwords.words('english')
+        self.stopwords = stopwords.words('english')
         self.stopwords.extend(punctuation)
         self.stopwords.append('')
 
-    # Get default English stopwords and extend with punctuation
-
-    def get_wordnet_pos(self, pos_tag):
-        if pos_tag[1].startswith('J'):
-            return pos_tag[0], wordnet.ADJ
-        elif pos_tag[1].startswith('V'):
-            return pos_tag[0], wordnet.VERB
-        elif pos_tag[1].startswith('N'):
-            return pos_tag[0], wordnet.NOUN
-        elif pos_tag[1].startswith('R'):
-            return pos_tag[0], wordnet.ADV
-        else:
-            return pos_tag[0], wordnet.NOUN
-
-    # Create tokenizer and stemmer
-
-    def is_ci_lemma_stopword_set_match(self, a, b, threshold=0.5):
+    def is_ci_lemma_stopword_set_match(self, a, b):
         """Check if a and b are matches."""
-        tokens_a = [token.lower().strip(punctuation) for token in nltk.tokenize.word_tokenize(a) \
-                    if token.lower().strip(punctuation) not in self.stopwords]
-        tokens_b = [token.lower().strip(punctuation) for token in nltk.tokenize.word_tokenize(b) \
+        tokens_a = [token.lower().strip(punctuation) for token in a.split(" ") \
+                    if token.lower().strip(punctuation)]
+        tokens_b = [token.lower().strip(punctuation) for token in a.split(" ") \
                     if token.lower().strip(punctuation) not in self.stopwords]
 
         # Calculate Jaccard similarity
@@ -45,7 +35,6 @@ class sentenceComparator:
             l.append([i, self.is_ci_lemma_stopword_set_match(a, i)])
         l.sort(key=lambda x: x[1], reverse=True)
         return [i[0] for i in l[:n]]
-
 
 
 class Help():
@@ -368,7 +357,7 @@ class Help():
         try:
             # print man page (TODO: format based on more args)
             if a:
-                manpage = subprocess.check_output(['man', q])
+                manpage = check_output(['man', q])
                 manpage = manpage.decode('utf-8')
                 print(manpage)
             # print short description
@@ -387,16 +376,25 @@ class Help():
             elif q == "--version" or q == "-v":
                 print("         BashHelp v.0.5.1  –––  Made by Andy Li")
             else:
-                t = time.time()
                 # get n closest matches (default is 3), print them
                 if n:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=n)
+                    g = get_close_matches(q, self.commands_to_descr.values(), n=n, cutoff=0)
                 else:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=3)
+                    g = get_close_matches(q, self.commands_to_descr.values(), cutoff=0)
+
+                seen = set()
                 for i in m:
-                    print(i)
+                    if i in g:
+                        print(i)
+                        seen.add(i)
+                for i in m:
+                    if i not in seen:
+                        print(i)
 
 # get input
+
 
 c = sentenceComparator()
 h = Help()
@@ -404,8 +402,9 @@ h = Help()
 q = ""
 
 if __name__ == "__main__":
-    for i, arg in enumerate(sys.argv):
+    for i, arg in enumerate(argv):
         if i > 0:
             q += arg + " "
 
 h.takeInput(q, c)
+
