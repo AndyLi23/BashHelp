@@ -20,9 +20,9 @@ class sentenceComparator:
 
     def is_ci_lemma_stopword_set_match(self, a, b):
         """Check if a and b are matches."""
-        tokens_a = [token.lower().strip(punctuation) for token in a.split(" ") \
-                    if token.lower().strip(punctuation)]
-        tokens_b = [token.lower().strip(punctuation) for token in a.split(" ") \
+        tokens_a = [token.lower().strip(punctuation) for token in word_tokenize(a) \
+                    if token.lower().strip(punctuation) not in self.stopwords]
+        tokens_b = [token.lower().strip(punctuation) for token in word_tokenize(b) \
                     if token.lower().strip(punctuation) not in self.stopwords]
 
         # Calculate Jaccard similarity
