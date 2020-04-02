@@ -1,8 +1,6 @@
 from subprocess import check_output
 from sys import argv
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from string import punctuation
+
 from difflib import get_close_matches
 
 #FIRST TIME ONLY
@@ -13,28 +11,30 @@ from difflib import get_close_matches
 
 class sentenceComparator:
 
-    def __init__(self):
-        self.stopwords = stopwords.words('english')
-        self.stopwords.extend(punctuation)
-        self.stopwords.append('')
+    def compare(self, a, b):
 
-    def is_ci_lemma_stopword_set_match(self, a, b):
-        """Check if a and b are matches."""
-        tokens_a = [token.lower().strip(punctuation) for token in word_tokenize(a) \
-                    if token.lower().strip(punctuation) not in self.stopwords]
-        tokens_b = [token.lower().strip(punctuation) for token in word_tokenize(b) \
-                    if token.lower().strip(punctuation) not in self.stopwords]
+        keyword = b.strip().split(" ")[0]
+        keywordMatch = 0
+        a_split = a.split(" ")
+        for a in a_split:
+            temp = 0
+            for i in range(len(a)):
+                if i < len(keyword):
+                    if a[i] == keyword[i]:
+                        temp += 5
+                if a[i] in keyword:
+                    temp += abs(keyword.index(a[i]) - i)
+            temp -= abs(len(keyword) - len(a))
+            keywordMatch = max(keywordMatch, temp)
 
-        # Calculate Jaccard similarity
-        ratio = len(set(tokens_a).intersection(tokens_b)) / float(len(set(tokens_a).union(tokens_b)))
-        return ratio
+        return keywordMatch
 
     def returnInOrder(self, a, ls, n=3):
         l = []
         for i in ls:
-            l.append([i, self.is_ci_lemma_stopword_set_match(a, i)])
+            l.append([i, self.compare(a, i)])
         l.sort(key=lambda x: x[1], reverse=True)
-        return [i[0] for i in l[:n]]
+        return [i for i in l[:n]]
 
 
 class Help():
@@ -358,7 +358,7 @@ class Help():
             # print man page (TODO: format based on more args)
             if a:
                 manpage = check_output(['man', q])
-                manpage = manpage.decode('utf-8')
+                #manpage = manpage.decode('utf-8')
                 print(manpage)
             # print short description
             else:
@@ -379,19 +379,31 @@ class Help():
                 # get n closest matches (default is 3), print them
                 if n:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=n)
-                    g = get_close_matches(q, self.commands_to_descr.values(), n=n, cutoff=0)
+                    q = get_close_matches(q, self.commands_to_descr.values(), n=n, cutoff=0)
                 else:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=3)
-                    g = get_close_matches(q, self.commands_to_descr.values(), cutoff=0)
+                    q = get_close_matches(q, self.commands_to_descr.values(), cutoff=0)
 
                 seen = set()
+
+                if n:
+                    l = n
+                else:
+                    l = 3
                 for i in m:
-                    if i in g:
-                        print(i)
-                        seen.add(i)
-                for i in m:
-                    if i not in seen:
-                        print(i)
+                    if i[1] > 20:
+                        print(i[0])
+                        seen.add(i[0])
+                        l -= 1
+
+                t = 0
+                for i in range(l):
+                    if q[t] not in seen:
+                        print(q[t])
+                    else:
+                        print(q[t+1])
+                        t += 1
+                    t += 1
 
 # get input
 
@@ -407,4 +419,5 @@ if __name__ == "__main__":
             q += arg + " "
 
 h.takeInput(q, c)
+
 
