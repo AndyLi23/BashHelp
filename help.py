@@ -1,7 +1,6 @@
 from subprocess import check_output
 from sys import argv
 
-from difflib import get_close_matches
 
 #FIRST TIME ONLY
 #import nltk
@@ -379,31 +378,12 @@ class Help():
                 # get n closest matches (default is 3), print them
                 if n:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=n)
-                    q = get_close_matches(q, self.commands_to_descr.values(), n=n, cutoff=0)
                 else:
                     m = c.returnInOrder(q, self.commands_to_descr.values(), n=3)
-                    q = get_close_matches(q, self.commands_to_descr.values(), cutoff=0)
 
-                seen = set()
-
-                if n:
-                    l = n
-                else:
-                    l = 3
                 for i in m:
-                    if i[1] > 20:
-                        print(i[0])
-                        seen.add(i[0])
-                        l -= 1
+                    print(i[0])
 
-                t = 0
-                for i in range(l):
-                    if q[t] not in seen:
-                        print(q[t])
-                    else:
-                        print(q[t+1])
-                        t += 1
-                    t += 1
 
 # get input
 
