@@ -10,23 +10,42 @@ from sys import argv
 
 class sentenceComparator:
 
+    def compareWords(self, a, b):
+        temp = 0
+        if a == b or a in b:
+            return len(a) * 10
+        for i in range(len(a)):
+            if i < len(b):
+                if a[i] == b[i]:
+                    temp += 10
+            elif a[i] in b:
+                temp += 10/(abs(b.index(a[i]) - i)+1)
+        return temp
+
     def compare(self, a, b):
 
-        keyword = b.strip().split(" ")[0]
+        keyword = b.strip().lower().split(" ")[0]
         keywordMatch = 0
-        a_split = a.split(" ")
-        for a in a_split:
-            temp = 0
-            for i in range(len(a)):
-                if i < len(keyword):
-                    if a[i] == keyword[i]:
-                        temp += 5
-                if a[i] in keyword:
-                    temp += abs(keyword.index(a[i]) - i)
-            temp -= abs(len(keyword) - len(a))
-            keywordMatch = max(keywordMatch, temp)
+        a_split = [i.lower() for i in a.strip().split(" ") if i]
+        for a1 in a_split:
+            keywordMatch = max(keywordMatch, self.compareWords(a1, keyword))
 
-        return keywordMatch
+        if keywordMatch > 9 * len(keyword):
+            keywordMatch += 100
+
+        sentenceMatch = 0
+        a_split = [i.lower() for i in a.strip().split(" ") if i]
+        b_split = [i.lower() for i in b.strip().split(" ") if i]
+        for a1 in a_split:
+            temp = 0
+            for b1 in b_split:
+                temp = max(temp, self.compareWords(a1, b1))
+            sentenceMatch += temp
+
+        if set(a_split).intersection(set(b_split)) == set(a_split):
+            sentenceMatch += 1000
+
+        return sentenceMatch + keywordMatch
 
     def returnInOrder(self, a, ls, n=3):
         l = []
