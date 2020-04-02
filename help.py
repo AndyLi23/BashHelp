@@ -30,6 +30,9 @@ class sentenceComparator:
         for a1 in a_split:
             keywordMatch = max(keywordMatch, self.compareWords(a1, keyword))
 
+        for i in a_split:
+            if i == keyword:
+                keywordMatch += 200
         if keywordMatch > 9 * len(keyword):
             keywordMatch += 100
 
@@ -43,7 +46,7 @@ class sentenceComparator:
             sentenceMatch += temp
 
         if set(a_split).intersection(set(b_split)) == set(a_split):
-            sentenceMatch += 1000
+            sentenceMatch += 200
 
         return sentenceMatch + keywordMatch
 
