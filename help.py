@@ -508,11 +508,10 @@ class Help():
 c = sentenceComparator()
 h = Help()
 
-q = ""
-
 if __name__ == "__main__":
+    q = ""
+
     for i, arg in enumerate(argv):
         if i > 0:
             q += arg + " "
-
-h.takeInput(q, c)
+    h.takeInput(q, c)
