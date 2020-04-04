@@ -395,7 +395,7 @@ class Help():
             if a and q != "helper" and q != "--help":
                 # most common sections
                 sections = ["SEE ALSO", "EXAMPLES", "DESCRIPTION", "SYNOPSIS", "NAME", "OPTIONS", "EXIT STATUS",
-                            "RETURN VALUE", "ENVIRONMENT", "BUGS", "FILES", "AUTHOR", "REPORTING BUGS", "HISTORY",
+                            "RETURN VALUE", "ENVIRONMENT", "BUGS", "FILES", "AUTHORS", "BUG REPORTS", "HISTORY",
                             "COPYRIGHT"]
 
                 # get man page
@@ -456,11 +456,11 @@ class Help():
                     if "FILES" in manpage_split.keys():
                         print("\n".join(manpage_split["FILES"]))
                 if "u" in a:
-                    if "AUTHOR" in manpage_split.keys():
-                        print("\n".join(manpage_split["AUTHOR"]))
+                    if "AUTHORS" in manpage_split.keys():
+                        print("\n".join(manpage_split["AUTHORS"]))
                 if "p" in a:
-                    if "REPORTING BUGS" in manpage_split.keys():
-                        print("\n".join(manpage_split["REPORTING BUGS"]))
+                    if "BUG REPORTS" in manpage_split.keys():
+                        print("\n".join(manpage_split["BUG REPORTS"]))
                 if "h" in a:
                     if "HISTORY" in manpage_split.keys():
                         print("\n".join(manpage_split["HISTORY"]))
