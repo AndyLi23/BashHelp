@@ -1,18 +1,19 @@
 # BashHelp
 
-A short script to help with finding commands for Bash and Zsh<br />Optimized for MacOS
+A Python3 script to help with finding commands for Bash and Zsh<br />Optimized for MacOS
 
 -Adding alias
 
 Go to home in terminal ```cd ~``` <br />
 Do ```vi .zprofile``` for zsh and ```vi .bash_profile``` for bash <br />
-Add ```alias help = "python3 /path/to/help.py"``` <br />
+Add ```alias help = "python3 /path/to/help.py"``` for help with common commands <br />
+Add ```alias hi = "python3 /path/to/helpInstalled.py``` for help with all installed commands <br />
 Restart terminal <br />
 
 
 -How to use
 
-Use ```help [command]``` to list short info about the command <br />
-```help -abcdefhnorsuvx [command]``` prints the parts of the man page for the command depending on the arguments. Use ```help -a helper``` or ```help -a --help``` to list valid arguments<br />
-```help [question]``` lists the 3 commands closest to the question <br />
-```help -[N] [question]``` lists the N commands closest to the question, where N is a whole number <br />
+Use ```help/hi [command]``` to list short info about the command <br />
+```help/hi -abcdefhnorsuvx [command]``` prints the parts of the man page for the command depending on the arguments. Use ```help/hi -a helper``` or ```help/hi -a --help``` to list valid arguments<br />
+```help/hi [question]``` lists the 3 commands closest to the question <br />
+```help/hi -[N] [question]``` lists the N commands closest to the question, where N is a whole number <br />
