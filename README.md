@@ -13,6 +13,7 @@ Restart terminal <br />
 
 -How to use
 
+Do help to help with common and builtin commands. Do hi to help with all installed commands.
 Use ```help/hi [command]``` to list short info about the command <br />
 ```help/hi -abcdefhnorsuvx [command]``` prints the parts of the man page for the command depending on the arguments. Use ```help/hi -a helper``` or ```help/hi -a --help``` to list valid arguments<br />
 ```help/hi [question]``` lists the 3 commands closest to the question <br />
