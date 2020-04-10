@@ -344,17 +344,8 @@ class Help():
                                   '!!': '        !!       Run the last command again',
                                   '###': '        ###      Comment / Remark'}
 
-        # parse commands.txt to update commands
-        #
-        # with open('/Users/andyli/Documents/Github/Personal/Learn-CS/commands.txt', 'r') as f:
-        #    utilities = f.read()
-        #
-        # for j in utilities.split("\n"):
-        #    commands_to_descr[j.strip().split(" ")[0]] = j
-        #
-        # print(commands_to_descr)
-
     def takeInput(self, q, c):
+        print("\n")
         # takes raw input (q) and parses it
         q = q.strip()
 
@@ -500,6 +491,7 @@ class Help():
 
                 for i in m:
                     print(i[0])
+        print("\n")
 
 
 # get input

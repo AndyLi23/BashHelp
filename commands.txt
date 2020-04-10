@@ -1,276 +1,1686 @@
-        apropos  Search Help manual pages (man -k)
-        apt-get  Search for and install software packages (Debian/Ubuntu)
-        aptitude Search for and install software packages (Debian/Ubuntu)
-        aspell   Spell Checker
-        awk      Find and Replace text, database sort/validate/index
-        basename Strip directory and suffix from filenames
-        base32   Base32 encode/decode data and print to standard output
-        base64   Base64 encode/decode data and print to standard output
-        bash     GNU Bourne-Again SHell
-        bc       Arbitrary precision calculator language
-        bg       Send to background
-        bind     Set or display readline key and function bindings
-        break    Exit from a loop
-        builtin  Run a shell builtin
-        bzip2    Compress or decompress named file(s)
-        cal      Display a calendar
-        case     Conditionally perform a command
-        cat      Concatenate and print (display) the content of files
-        cd       Change Directory
-        cfdisk   Partition table manipulator for Linux
-        chattr   Change file attributes on a Linux file system
-        chgrp    Change group ownership
-        chmod    Change access permissions
-        chown    Change file owner and group
-        chpasswd Update passwords in batch mode
-        chroot   Run a command with a different root directory
-        chkconfig System services (runlevel)
-        cksum    Print CRC checksum and byte counts
-        clear    Clear terminal screen
-        cmp      Compare two files
-        comm     Compare two sorted files line by line
-        command  Run a command - ignoring shell functions
-        continue Resume the next iteration of a loop
-        cp       Copy one or more files to another location
-        cpio     Copy files to and from archives
-        cron     Daemon to execute scheduled commands
-        crontab  Schedule a command to run at a later time
-        csplit   Split a file into context-determined pieces
-        curl     Transfer data  from or to a server
-        cut      Divide a file into several parts
-        date     Display or change the date & time
-        dc       Desk Calculator
-        dd       Data Duplicator - convert and copy a file, write disk headers, boot records
-        ddrescue Data recovery tool
-        declare  Declare variables and give them attributes
-        df       Display free disk space
-        diff     Display the differences between two files
-        diff3    Show differences among three files
-        dig      DNS lookup
-        dir      Briefly list directory contents
-        dircolors Colour setup for 'ls'
-        dirname  Convert a full pathname to just a path
-        dirs     Display list of remembered directories
-        dmesg    Print kernel & driver messages
-        du       Estimate file space usage
-        echo     Print message
-        egrep    Search file(s) for lines that match an extended expression
-        eject    Eject removable media
-        enable   Enable and disable builtin shell commands
-        env      Environment variables
-        ethtool  Ethernet card settings
-        eval     Evaluate several commands/arguments
-        exec     Execute a command
-        exit     Exit the shell
-        expect   Automate arbitrary applications accessed over a terminal
-        expand   Convert tabs to spaces
-        export   Set an environment variable
-        expr     Evaluate expressions
-        false    Do nothing, unsuccessfully
-        fdformat Low-level format a floppy disk
-        fdisk    Partition table manipulator for Linux
-        fg       Send job to foreground
-        fgrep    Search file(s) for lines that match a fixed string
-        file     Determine file type
-        find     Search for files that meet a desired criteria
-        fmt      Reformat paragraph text
-        fold     Wrap text to fit a specified width.
-        for      Expand words, and execute commands
-        format   Format disks or tapes
-        free     Display memory usage
-        fsck     File system consistency check and repair
-        ftp      File Transfer Protocol
-        function Define Function Macros
-        fuser    Identify/kill the process that is accessing a file
-        gawk     Find and Replace text within file(s)
-        getopts  Parse positional parameters
-        grep     Search file(s) for lines that match a given pattern
-        groupadd Add a user security group
-        groupdel Delete a group
-        groupmod Modify a group
-        groups   Print group names a user is in
-        gzip     Compress or decompress named file(s)
-        hash     Remember the full pathname of a name argument
-        head     Output the first part of file(s)
-        help     Display help for a built-in command
-        history  Command History
-        hostname Print or set system name
-        htop     Interactive process viewer
-        iconv    Convert the character set of a file
-        id       Print user and group id's
-        if       Conditionally perform a command
-        ifconfig Configure a network interface
-        ifdown   Stop a network interface
-        ifup     Start a network interface up
-        import   Capture an X server screen and save the image to file
-        install  Copy files and set attributes
-        iostat   Report CPU and i/o statistics
-        ip       Routing, devices and tunnels
-        jobs     List active jobs
-        join     Join lines on a common field
-        kill     Kill a process by specifying its PID
-        killall  Kill processes by name
-        less     Display output one screen at a time
-        let      Perform arithmetic on shell variables
-        link     Create a link to a file
-        ln       Create a symbolic link to a file
-        local    Create a function variable
-        locate   Find files
-        logname  Print current login name
-        logout   Exit a login shell
-        look     Display lines beginning with a given string
-        lpc      Line printer control program
-        lpr      Off line print
-        lprint   Print a file
-        lprintd  Delete a print job
-        lprintq  List the print queue
-        lprm     Remove jobs from the print queue
-        lsattr   List file attributes on a Linux second extended file system
-        lsblk    List block devices
-        ls       List information about file(s)
-        lsof     List open files
-        lspci    List all PCI devices
-        make     Recompile a group of programs
-        man      Help manual
-        mapfile  Read lines from standard input into an indexed array variable
-        mkdir    Create new folder(s)
-        mkfifo   Make FIFOs (named pipes)
-        mkfile   Make a file
-        mkisofs  Create an hybrid ISO9660/JOLIET/HFS filesystem
-        mknod    Make block or character special files
-        mktemp   Make a temporary file
-        more     Display output one screen at a time
-        most     Browse or page through a text file
-        mount    Mount a file system
-        mtools   Manipulate MS-DOS files
-        mtr      Network diagnostics (traceroute/ping)
-        mv       Move or rename files or directories
-        mmv      Mass Move and rename (files)
-        nc       Netcat, read and write data across networks
-        netstat  Networking connections/stats
-        nft      nftables for packet filtering and classification
-        nice     Set the priority of a command or job
-        nl       Number lines and write files
-        nohup    Run a command immune to hangups
-        notify-send  Send desktop notifications
-        nslookup Query Internet name servers interactively
-        open     Open a file in its default application
-        op       Operator access
-        passwd   Modify a user password
-        paste    Merge lines of files
-        pathchk  Check file name portability
-        Perf     Performance analysis tools for Linux
-        ping     Test a network connection
-        pgrep    List processes by name
-        pkill    Kill processes by name
-        popd     Restore the previous value of the current directory
-        pr       Prepare files for printing
-        printcap Printer capability database
-        printenv Print environment variables
-        printf   Format and print data
-        ps       Process status
-        pushd    Save and then change the current directory
-        pv       Monitor the progress of data through a pipe
-        pwd      Print Working Directory
-        quota    Display disk usage and limits
-        quotacheck Scan a file system for disk usage
-        ram      ram disk device
-        rar      Archive files with compression
-        rcp      Copy files between two machines
-        read     Read a line from standard input
-        readarray Read from stdin into an array variable
-        readonly Mark variables/functions as readonly
-        reboot   Reboot the system
-        rename   Rename files
-        renice   Alter priority of running processes
-        remsync  Synchronize remote files via email
-        return   Exit a shell function
-        rev      Reverse lines of a file
-        rm       Remove files
-        rmdir    Remove folder(s)
-        rsync    Remote file copy (Synchronize file trees)
-        screen   Multiplex terminal, run remote shells via ssh
-        scp      Secure copy (remote file copy)
-        sdiff    Merge two files interactively
-        sed      Stream Editor
-        select   Accept keyboard input
-        seq      Print numeric sequences
-        set      Manipulate shell variables and functions
-        sftp     Secure File Transfer Program
-        shift    Shift positional parameters
-        shopt    Shell Options
-        shutdown Shutdown or restart linux
-        sleep    Delay for a specified time
-        slocate  Find files
-        sort     Sort text files
-        source   Run commands from a file '.'
-        split    Split a file into fixed-size pieces
-        ss       Socket Statistics
-        ssh      Secure Shell client (remote login program)
-        stat     Display file or file system status
-        strace   Trace system calls and signals
-        su       Substitute user identity
-        sudo     Execute a command as another user
-        sum      Print a checksum for a file
-        suspend  Suspend execution of this shell
-        sync     Synchronize data on disk with memory
-        tail     Output the last part of file
-        tar      Store, list or extract files in an archive
-        tee      Redirect output to multiple files
-        test     Evaluate a conditional expression
-        time     Measure Program running time
-        timeout  Run a command with a time limit
-        times    User and system times
-        touch    Change file timestamps
-        top      List processes running on the system
-        tput     Set terminal-dependent capabilities, color, position
-        traceroute Trace Route to Host
-        trap      Execute a command when the shell receives a signal
-        tr       Translate, squeeze, and/or delete characters
-        true     Do nothing, successfully
-        tsort    Topological sort
-        tty      Print filename of terminal on stdin
-        type     Describe a command
-        ulimit   Limit user resources
-        umask    Users file creation mask
-        umount   Unmount a device
-        unalias  Remove an alias
-        uname    Print system information
-        unexpand Convert spaces to tabs
-        uniq     Uniquify files
-        units    Convert units from one scale to another
-        unrar    Extract files from a rar archive
-        unset    Remove variable or function names
-        unshar   Unpack shell archive scripts
-        until    Execute commands (until error)
-        uptime   Show uptime
-        useradd  Create new user account
-        userdel  Delete a user account
-        usermod  Modify user account
-        users    List users currently logged in
-        uuencode Encode a binary file
-        uudecode Decode a file created by uuencode
-        v        Verbosely list directory contents ('ls -l -b')
-        vdir     Verbosely list directory contents ('ls -l -b')
-        vi       Text Editor
-        vmstat   Report virtual memory statistics
-        w        Show who is logged on and what they are doing
-        wait     Wait for a process to complete
-        watch    Execute/display a program periodically
-        wc       Print byte, word, and line counts
-        whereis  Search the user's $path, man pages and source files for a program
-        which    Search the user's $path for a program file
-        while    Execute commands
-        who      Print all usernames currently logged in
-        whoami   Print the current user id and name ('id -un')
-        wget     Retrieve web pages or files via HTTP, HTTPS or FTP
-        write    Send a message to another user
-        xargs    Execute utility, passing constructed argument list(s)
-        xdg-open Open a file or URL in the user's preferred application.
-        xz       Compress or decompress .xz and .lzma files
-        yes      Print a string until interrupted
-        zip      Package and compress (archive) files.
-        . (./)   Run a command script
-        |        Takes standard output of one command and passes it as the input to another
-        !!       Run the last command again
-        ###      Comment / Remark
+!
+.: The top program periodically displays a sorted list of system processes
+2to3
+2to3
+2to3-
+2to3-2.7
+2to3-3.7
+2to3-3.8
+2to3-3.8
+:
+AppleFileServer: How to run the AppleFileServer Running on MacOS X Desktop The AppleFileServer is typically launched using the Sharing Preference
+AssetCacheLocatorUtil: AssetCacheLocatorUtil reports information related to macOS Content Caches running on the computer or on the local network
+AssetCacheManagerUtil: AssetCacheManagerUtil controls the macOS Content Cache
+AssetCacheTetheratorUtil: iOS and tvOS devices connected to a computer with a USB cable can be "tethered," so that they route their Internet requests through the com- puter
+BootCacheControl: Users should not run BootCacheControl manually
+BuildStrings
+ClassInitGenerator
+CpMac
+DeRez: Tools supporting Carbon development, including DeRez, were deprecated with Xcode 6
+DevToolsSecurity: This tool changes the security authorization policies for use of Apple- code-signed debugger and performance analysis tools on development sys- tems
+DirectoryService: DirectoryService has been replaced by opendirectoryd(8)
+GetFileInfo: Tools supporting Carbon development, including /usr/bin/GetFileInfo, were deprecated with Xcode 6
+IOAccelMemory
+IronRuby.Tests
+KernelEventAgent: The KernelEventAgent utility is responsible for displaying disk full and unresponsive file server messages
+MergePef
+MvMac
+PasswordService: In the first synopsis form, PasswordService prints a usage summary or version information and quits
+ResMerger: Tools supporting Carbon development, including /usr/bin/ResMerger, were deprecated with Xcode 6
+Rez: Tools supporting Carbon development, including Rez, were deprecated with Xcode 6
+RezDet
+RezWack
+SafeEjectGPU: The SafeEjectGPU command is used to prepare for safe eject/disconnect of eGPUs from the system
+SetFile: Tools supporting Carbon development, including /usr/bin/SetFile, were deprecated with Xcode 6
+SophosUpdate
+SplitForks: Tools supporting Carbon development, including /usr/bin/SplitForks, were deprecated with Xcode 6
+UnRezWack
+VBoxAutostart
+VBoxBalloonCtrl
+VBoxBugReport
+VBoxDTrace
+VBoxHeadless
+VBoxManage
+VBoxVRDP
+VirtualBox
+VirtualBoxVM
+WirelessRadioManagerd: WirelessRadioManagerd manages multiple radio coexistence policy
+[: The test utility evaluates the expression and, if it evaluates to true, returns a zero (true) exit status; otherwise it returns 1 (false)
+[: The test utility evaluates the expression and, if it evaluates to true, returns a zero (true) exit status; otherwise it returns 1 (false)
+[[
+]]
+a2p: A2p takes an awk script specified on the command line (or from standard input) and produces a comparable perl script on the standard output
+a2p5.18: A2p takes an awk script specified on the command line (or from standard input) and produces a comparable perl script on the standard output
+ab
+ab
+ac: A record of individual login and logout times are written to the system log by login(8) and launchd(8), respectively
+accton: The accton utility is used for switching system accounting on or off
+actool
+addftinfo: addftinfo reads a troff font file and adds some additional font-metric information that is used by the groff system
+afclip
+afconvert: Audio File Convert will convert a source audio file to a new audio file with the specified file and data types OPTIONS -h print help text Darwin February 13, 2007 Darwin 
+afhash: Audio File Hash writes an SHA-1 hash to an audio file or prints (to std- out) the hash contained in an audio file OPTIONS -h print help text -w write hash code to audio file -x print hash code from audio file (if present) -c compare hash codes from two audio files Darwin February 13, 2007 Darwin 
+afida: afida compares a reference audio file with a distorted version and esti- mates the perceivable spatial image distortions in terms of image shift and width
+afinfo: Audio File Info prints out information about an audio file to stdout Darwin February 13, 2007 Darwin 
+afmtodit: afmtodit creates a font file for use with groff and grops
+afplay: Audio File Play plays an audio file to the default audio output OPTIONS -h print help text Darwin February 13, 2007 Darwin 
+afscexpand: The afscexpand command is used to decompress files compressed with HFS+ compression
+agentxtrap: agentxtrap issues an AgentX NotifyPDU to a master agent
+agvtool
+al: AL is the Mono assembly linker
+al2
+alias: Shell builtin commands are commands that can be executed within the run- ning shell's process
+alias: Shell builtin commands are commands that can be executed within the run- ning shell's process
+amt: The amt utility is used to verify that the low level functions necessary to enforce requirements of the Controlled Access Protection Profile (CAPP) are working correctly
+apachectl
+apachectl
+apfs_hfs_convert: The apfs_hfs_convert command converts an existing HFS file system to a new APFS file system
+apm
+app-sso
+applesingle: applesingle, binhex, macbinary are implemented as a single tool with mul- tiple names
+appletviewer: The appletviewer command connects to the documents or resources desig- nated by urls and displays each applet referenced by that document in its own window
+apply: The apply utility runs the named command on each argument argument in turn
+appsleepd: appsleepd provides app sleep services
+aprofutil: AOT profile tool is a tool to inspect AOT profiler files
+apropos: apropos searches a set of database files containing short descriptions of system commands for keywords and displays the result on the standard output
+apt: The tool apt, annotation processing tool, includes a set of new reflec- tive APIs and supporting infrastructure to process program annotations
+apxs
+ar: The ar utility creates and maintains groups of files combined into an ar- chive
+arch: The arch command with no arguments, displays the machine's architecture type
+arp: The arp utility displays and modifies the Internet-to-Ethernet address translation tables used by the address resolution protocol (arp(4))
+as: The as command translates assembly code in the named files to object code
+asa: The asa utility reads files sequentially, mapping FORTRAN carriage-con- trol characters to line-printer control sequences, and writes them to the standard output
+asctl: asctl is a facility for manipulating the filesystem container for an applications using App Sandbox
+aslmanager: aslmanager manages rotated files and ASL data written by the syslogd server
+asp-state: asp-state is an out of process ASP.NE
+asp-state2
+asp-state4
+asr: asr efficiently copies disk images onto volumes, either directly or via a multicast network stream
+assetutil: assetutil processes a .ca
+at: The at and batch utilities read commands from standard input or a speci- fied file
+atom
+atos: The atos command converts numeric addresses to their symbolic equiva- lents
+atq: The at and batch utilities read commands from standard input or a speci- fied file
+atrm: The at and batch utilities read commands from standard input or a speci- fied file
+atsutil: atsutil tool controls some aspects of the font registration system
+audit: The audit utility controls the state of the audit system
+auditd: The auditd daemon responds to requests from the audit(8) utility and notifications from the kernel
+auditreduce: The auditreduce utility selects records from the audit trail files based on the specified criteria
+automator: automator runs the specified workflow
+automount: automount reads the /etc/auto_master file, and any local or network maps it includes, and mounts autofs on the appropriate mount points to cause mounts to be triggered
+auval: AUValidation tests a specified AudioUnit for API and behavioural confor- mance
+auvaltool: AUValidation tests a specified AudioUnit for API and behavioural confor- mance
+avbdeviced: The avbdeviced executable is used for the managment of persistent AVB entities which are advertised by the Mac
+avbdiagnose: The avbdiagnose tool is used to capture a snapshot of the current AVB system state and help diagnose common issues with AVB
+avbutil: The avbutil executable is used for the managment AVB features and set- tings
+avconvert: avconvert is a tool that converts source media files to different file types for sharing on the web or loading onto devices
+avmetareadwrite
+awk: Awk scans each input file for lines that match any of a set of patterns specified literally in prog or in one or more files specified as -f progfile
+banner: Banner prints a large, high quality banner on the standard output
+base64: base64 encodes and decodes Base64 data, as specified in RFC 4648
+basename: The basename utility deletes any prefix ending with the last slash `/' character present in string (after first stripping trailing slashes), and a suffix, if given
+bash
+bashbug: bashbug is a shell script to help the user compose and mail bug reports concerning bash in a standard format
+batch: The at and batch utilities read commands from standard input or a speci- fied file
+bc
+bg: Shell builtin commands are commands that can be executed within the run- ning shell's process
+bg: Shell builtin commands are commands that can be executed within the run- ning shell's process
+biff: The biff utility informs the system whether you want to be notified on your terminal when mail arrives
+bind: Shell builtin commands are commands that can be executed within the run- ning shell's process
+binhex: applesingle, binhex, macbinary are implemented as a single tool with mul- tiple names
+binhex.pl: Each file is converted to file.hqx
+binhex5.18.pl
+binhex5.28.pl
+bioutil: bioutil provides the possibility of viewing and changing Touch ID config- uration, both system-wide and user-specific
+bison: Bison is a parser generator in the style of yacc(1)
+bitesize.d: This produces a report for the size of disk events caused by processes
+bless: bless is used to modify the volume bootability characteristics of filesystems, as well as select the active boot volume
+bluetoothaudiod: The Bluetooth audio daemon handles audio configuration and encod- ing/decoding
+bluetoothd: The Bluetooth daemon handles SDP transactions, link key management, and incoming connection acceptance
+bnepd: The Bluetooth network daemon handles all BNEP connections on the system
+brctl: brctl understands the following commands: diagnose [options] [<diagnosis-output-path>] diagnose and collect logs -M,--collect-mobile-documents[=<container>] (default: all contain- ers) -s,--sysdiagnose Do not collect what's already part of sysdiag- nose -n,--name=<name> Change the device name [<diagnosis-output-path>] Specifies the output path of the diagnosis; -n becomes useless
+break: Shell builtin commands are commands that can be executed within the run- ning shell's process
+brew: Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn't include with macOS
+brotli
+bsdtar: tar creates and manipulates streaming archive files
+bspatch: bspatch generates <newfile> from <oldfile> and <patchfile> where <patchfile> is a binary patch built by bsdiff(1)
+builtin: Shell builtin commands are commands that can be executed within the run- ning shell's process
+bundle: Bundler manages an application's dependencies through its entire life across many machines systematically and repeatably
+bundler
+bunzip2: bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding
+bzcat: bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding
+bzcmp: Bzcmp and bzdiff are used to invoke the cmp or the diff program on bzip2 compressed files
+bzdiff: Bzcmp and bzdiff are used to invoke the cmp or the diff program on bzip2 compressed files
+bzegrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+bzfgrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+bzgrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+bzip2: bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding
+bzip2recover: bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding
+bzless: Bzmore is a filter which allows examination of compressed or plain text files one screenful at a time on a soft-copy terminal
+bzmore: Bzmore is a filter which allows examination of compressed or plain text files one screenful at a time on a soft-copy terminal
+c++: clang is a C, C++, and Objective-C compiler which encompasses prepro- cessing, parsing, optimization, code generation, assembly, and linking
+c++filt: The C++ and Java languages provide function overloading, which means that you can write many functions with the same name, providing that each function takes parameters of different types
+c2ph: The following is the old c2ph.do
+c2ph5.18: The following is the old c2ph.do
+c89: This is the name of the C language compiler as required by the IEEE Std 1003.1-200
+c99: This is the name of the C language compiler as required by the IEEE Std 1003.1-200
+caffeinate: caffeinate creates assertions to alter system sleep behavior
+cal: The cal utility displays a simple calendar in traditional format and ncal offers an alternative layout, more options and the date of Easter
+calendar: The calendar utility checks the current directory for a file named calendar and displays lines that begin with either today's date or tomor- row's
+caller
+cancel: The cancel command cancels print jobs
+cap_mkdb: Cap_mkdb builds a hashed database out of the getcap(3) logical database constructed by the concatenation of the specified files 
+captoinfo: captoinfo looks in file for termcap descriptions
+case: Shell builtin commands are commands that can be executed within the run- ning shell's process
+caspol
+cat: The cat utility reads files sequentially, writing them to the standard output
+cc: clang is a C, C++, and Objective-C compiler which encompasses prepro- cessing, parsing, optimization, code generation, assembly, and linking
+cccheck: Perform static code contracts verification to find bugs and inconsis- tencies between code and specification
+ccrewrite: Rewrite CLR assemblies to convert calls into the System.Diagnos
+cd: Shell builtin commands are commands that can be executed within the run- ning shell's process
+cd: Shell builtin commands are commands that can be executed within the run- ning shell's process
+cert-sync: This tool allows you to populate a Mono certificate store, from a large concatenated list of certificates in PEM format (commonly provided on most Linux distributions)
+cert2spc: Combine a list of X.50
+certmgr: This tool allows to list, add, remove or extract certificates, certifi- cate revocation lists (CRL) or certificate trust lists (CTL) to/from a certificate store
+certtool: Certtool is a UNIX command-line program which is used to create key pairs, certificates, and certificate signing requests; to import exter- nally generated certificates and Certificate Revocation Lists (CRLs) into a Keychain, and to display the contents of certificates and CRLs
+cfprefsd: cfprefsd provides preferences services for the CFPreferences and NSUserDefaults APIs
+chardetect
+chat: The chat program defines a conversational exchange between the computer and the modem
+checkgid: Given one or more group identifers on the command line (e.g.
+checkgid: Given one or more group identifers on the command line (e.g.
+checknr: The checknr utility checks a list of nroff(1) or troff(1) input files for certain kinds of errors involving mismatched opening and closing delim- iters and unknown commands
+chflags: The chflags utility modifies the file flags of the listed files as speci- fied by the flags operand
+chfn: The chpass utility allows editing of the user database information asso- ciated with user or, by default, the current user
+chgrp: The chgrp utility sets the group ID of the file named by each file oper- and to the group ID specified by the group operand
+chktrust: Verify if an PE executable (CLR assembly, Win32 EXE or DLL) has a valid Authenticode(r) signature that can be traced back to a trusted certifi- cate authority (CA)
+chmod: The chmod utility modifies the file mode bits of the listed files as specified by the mode operand
+chown: The chown utility changes the user ID and/or the group ID of the speci- fied files
+chpass: The chpass utility allows editing of the user database information asso- ciated with user or, by default, the current user
+chroot: The chroot command changes its root directory to the supplied directory newroot and exec's command, if supplied, or an interactive copy of your shell
+chsh: The chpass utility allows editing of the user database information asso- ciated with user or, by default, the current user
+cjpeg: cjpeg compresses the named image file, or the standard input if no file is named, and produces a JPEG/JFIF file on the standard output
+ckksctl
+cksum: The cksum utility writes to the standard output three whitespace sepa- rated fields for each input file
+clang: clang is a C, C++, and Objective-C compiler which encompasses prepro- cessing, parsing, optimization, code generation, assembly, and linking
+clang++: clang is a C, C++, and Objective-C compiler which encompasses prepro- cessing, parsing, optimization, code generation, assembly, and linking
+clear: clear clears your screen if this is possible
+cmp: Compare two files byte by byte
+cmpdylib: cmpdylib compares two versions of a dynamic shared library to see if they are compatible with each other
+codesign: The codesign command is used to create, check, and display code signa- tures, as well as inquire into the dynamic status of signed code in the system
+codesign_allocate: codesign_allocate sets up a Mach-O file used by the dynamic linker so space for code signing data of the specified size for the specified architecture is embedded in the Mach-O file
+col: The col utility filters out reverse (and half reverse) line feeds so that the output is in the correct order with only forward and half forward line feeds, and replaces white-space characters with tabs where possible
+colcrt: The colcrt utility provides virtual half-line and reverse line feed sequences for terminals without such capability, and on which overstrik- ing is destructive
+colldef: The colldef utility converts a collation sequence source definition into a format usable by the strxfrm() and strcoll() functions
+colrm: The colrm utility removes selected columns from the lines of a file
+column: The column utility formats its input into multiple columns
+comm: The comm utility reads file1 and file2, which should be sorted lexically, and produces three text columns as output: lines only in file1; lines only in file2; and lines in both files
+command: Shell builtin commands are commands that can be executed within the run- ning shell's process
+command: Shell builtin commands are commands that can be executed within the run- ning shell's process
+compgen
+complete: Shell builtin commands are commands that can be executed within the run- ning shell's process
+compress: The compress utility reduces the size of files using adaptive Lempel-Ziv coding
+compression_tool: compression_tool encodes (compresses), or decodes (uncompresses) files using the Compression library
+config_data: The "config_data" tool provides a command-line interface to the configuration of Perl modules
+config_data5.18: The "config_data" tool provides a command-line interface to the configuration of Perl modules
+continue: Shell builtin commands are commands that can be executed within the run- ning shell's process
+convertfilestopdf
+convertfilestops
+convertformat
+convertsegfilestopdf
+convertsegfilestops
+converttopdf
+converttops
+coreaudiod: coreaudiod is a daemon used for Core Audio related purposes
+corelist: See Module::CoreList for one
+corelist5.18: See Module::CoreList for one
+corelist5.28: See Module::CoreList for one
+cp: In the first synopsis form, the cp utility copies the contents of the source_file to the target_file
+cpan: This script provides a command interface (not a shell) to CPAN
+cpan2dist: This script will create distributions of "CPAN" modules of the format you specify, including its prerequisites
+cpan2dist5.18: This script will create distributions of "CPAN" modules of the format you specify, including its prerequisites
+cpan5.18: This script provides a command interface (not a shell) to CPAN
+cpan5.28: This script provides a command interface (not a shell) to CPAN
+cpanp: This script launches the CPANPLUS utility to perform various operations from the command line
+cpanp-run-perl
+cpanp-run-perl5.18
+cpanp5.18: This script launches the CPANPLUS utility to perform various operations from the command line
+cpio: cpio copies files between archives and directories
+cpp
+cpu_profiler.d
+cpuctl: The cpuctl command can be used to control and inspect the state of CPUs in the system
+cpuwalk.d: This program is for multi-CPU servers, and can help identify if a process is running on multiple CPUs concurrently or not
+crc32: This package provides a Tcl implementation of the CRC-32 algorithm based upon information provided at http://www.naaccr.org/stan
+crc325.18
+crc325.28
+creatbyproc.d: creatbyproc.
+createhomedir: createhomedir provides several options for creating and populating home directories
+crlrefresh: Crlrefresh is a UNIX command-line program which is used to refresh and update the contents of the system-wide cache of Certificate Revocation Lists (CRLs)
+cron: The cron utility is launched by launchd(8) when it sees the existence of /etc/crontab or files in /usr/lib/cron/tabs
+crontab: The crontab utility is the program used to install, deinstall or list the tables used to drive the cron(8) daemon in Vixie Cron
+crypto
+csc
+csdiagnose: csdiagnose collects information to help Apple investigate issues related to CoreStorage (File Vault 2, Fusion Drive, File Vault Everywhere, etc)
+csgather: csgather gathers CoreStorage metadata for diagnosis
+csh: tcsh is an enhanced but completely compatible version of the Berkeley UNIX C shell, csh(1)
+csharp: The csharp command is an interactive C# shell and scripting host that allows the user to enter and evaluate C# statements and expressions from the command line or execute C# scripts
+csi
+csplit: The csplit utility splits file into pieces using the patterns args
+csreq: The csreq command manipulates Code Signing Requirement data
+csrutil: csrutil modifies System Integrity Protection settings
+ctags: ctags makes a tags file for ex(1) from the specified C, Pascal, Fortran, YACC, lex, and lisp sources
+ctf_insert: ctf_insert inserts CTF (Compact C Type Format) data into a mach_kernel binary, storing the data in a newly created (__CTF,__ctf) section
+cu: The cu command is used to call up another system and act as a dial in terminal
+cups-config: The cups-config command allows application developers to determine the necessary command-line options for the compiler and linker, as well as the installation directories for filters, configuration files, and drivers
+cupsaccept: The cupsaccept command instructs the printing system to accept print jobs to the specified destinations
+cupsctl: cupsctl updates or queries the cupsd.con
+cupsdisable: cupsenable starts the named printers or classes while cupsdisable stops the named printers or classes
+cupsenable: cupsenable starts the named printers or classes while cupsdisable stops the named printers or classes
+cupsfilter: cupsfilter is a front-end to the CUPS filter subsystem which allows you to convert a file to a specific format, just as if you had printed the file through CUPS
+cupsreject: The cupsaccept command instructs the printing system to accept print jobs to the specified destinations
+cupstestppd: cupstestppd tests the conformance of PPD files to the Adobe PostScript Printer Description file format specification version 4.3
+curl: curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP)
+curl-config: curl-config displays information about the curl and libcurl installa- tion
+cut: The cut utility cuts out selected portions of each line (as specified by list) from each file and writes them to the standard output
+cvadmin: cvadmin is an interactive command used for general purpose administra- tion of an Xsan volume including: 1
+cvaffinity: cvaffinity can be used to set an affinity for a specific storage pool on a file or directory, or list the current affinity
+cvcp: cvcp provides a high speed, multi-threaded copy mechanism for copying directories onto and off of an Xsan volume
+cvdb: cvdb provides a mechanism for developers and system administrators to extract debugging information from the Xsan File System client filesys- tem
+cvdbset: cvdbset is a tool for system administrators to control cvdb(8) tracing information from the Xsan File System client file system
+cvfsck: The cvfsck program can check and repair Xsan file system metadata cor- ruption due to a system crash, bad disk or other catastrophic failure
+cvfsdb: The cvfsdb command is a tool for debugging an Xsan volume
+cvfsid: cvfsid provides a mechanism for displaying the SNFS identifier for the executing system
+cvgather: The cvgather program is used to collect debug information from a vol- ume
+cvlabel: cvlabel is used when configuring the Xsan File System disks
+cvmkdir: The cvmkdir command creates a Xsan File System directory and attaches an affinity parameter (key) to it
+cvmkfile: cvmkfile can be used to pre-allocate a file on the Xsan volume
+cvmkfs: cvmkfs will initialize a Xsan volume optionally using volume_name as the name
+cvupdatefs: The cvupdatefs program is used to commit a configuration change to a Xsan volume
+cvversions: cvversions will display the revision, build level and creation date for the File System Manager (FSM) and client subsystems of the Xsan File System
+cwebp: This manual page documents the cwebp command
+dappprof: dappprof prints details on user and library call times for processes as a summary style aggragation
+dapptrace: dapptrace prints details on user and library function calls
+darwinup: darwinup allows you to manage roots, or archives, of files that replace parts of your system
+dash: dash is the standard command interpreter for the system
+date: When invoked without arguments, the date utility displays the current date and time
+db_archive: The db_archive utility writes the pathnames of log files that are no longer in use (for example, no longer involved in active transactions), to the standard output, one pathname per line
+db_checkpoint: The db_checkpoint utility is a daemon process that monitors the database log, and periodically calls DB_ENV->txn_checkpoint to checkpoint it
+db_codegen
+db_deadlock: The db_deadlock utility traverses the database environment lock region, and aborts a lock request each time it detects a deadlock or a lock request that has timed out
+db_dump: The db_dump utility reads the database file file and writes it to the standard output using a portable flat-text format understood by the db_load utility
+db_hotbackup
+db_load: The db_load utility reads from the standard input and loads it into the database file
+db_printlog: The db_printlog utility is a debugging utility that dumps Berkeley DB log files in a human-readable format
+db_recover: The db_recover utility must be run after an unexpected application, Berkeley DB, or system failure to restore the database to a consistent state
+db_stat: The db_stat utility utility displays statistics for Berkeley DB environ- ments
+db_upgrade: The db_upgrade utility upgrades the Berkeley DB version of one or more files and the databases they contain to the current release version
+db_verify: The db_verify utility verifies the structure of one or more files and the databases they contain
+dbicadmin
+dbicadmin5.18
+dbicadmin5.28
+dbilogstrip: Replaces any hex addresses, e.g
+dbilogstrip5.18: Replaces any hex addresses, e.g
+dbilogstrip5.28: Replaces any hex addresses, e.g
+dbiprof: This tool is a command-line client for the DBI::ProfileData
+dbiprof5.18: This tool is a command-line client for the DBI::ProfileData
+dbiprof5.28: This tool is a command-line client for the DBI::ProfileData
+dbiproxy: This tool is just a front end for the DBI::ProxyServer package
+dbiproxy5.18: This tool is just a front end for the DBI::ProxyServer package
+dbiproxy5.28: This tool is just a front end for the DBI::ProxyServer package
+dbmmanage
+dbmmanage
+dbsessmgr: dbsessmgr allows you to manage the ASP.NE
+dbsessmgr2
+dbsessmgr4
+dc
+dd: The dd utility copies the standard input to the standard output
+ddns-confgen: tsig-keygen and ddns-confgen are invocation methods for a utility that generates keys for use in TSIG signing
+debinhex.pl: Each file is expected to be a BinHex file
+debinhex5.18.pl
+debinhex5.28.pl
+declare
+decrypto
+defaults: Defaults allows users to read, write, and delete Mac OS X user defaults from a command-line shell
+deflatehd
+delv: delv (Domain Entity Lookup & Validation) is a tool for sending DNS queries and validating the results, using the the same internal resolver and validator logic as named
+desdp
+dev_mkdb: The dev_mkdb command creates a db(3) hash access method database in ``/var/run/dev.db'
+df: The df utility displays statistics about the amount of free disk space on the specified filesystem or on the filesystem of which file is a part
+diagnose-fu
+diff
+diff3: Compare three files line by line
+diffstat: This program reads the output of diff and displays a histogram of the insertions, deletions, and modifications per-file
+dig: dig (domain information groper) is a flexible tool for interrogating DNS name servers
+dirname: The basename utility deletes any prefix ending with the last slash `/' character present in string (after first stripping trailing slashes), and a suffix, if given
+dirs: Shell builtin commands are commands that can be executed within the run- ning shell's process
+disco: disco is a tool for discovering web services and for retireving the documents that describe those services
+disklabel: The disklabel utility manipulates ``Apple Label'' partition metadata
+disktool: This command is deprecated and exists only for backward compatibility
+diskutil: diskutil manipulates the structure of local disks
+disown
+dispqlen.d: The dispatcher queue length is an indication of CPU saturation
+distnoted: distnoted provides distributed notification services
+ditto: In its first form, ditto copies one or more source files or directories to a destination directory
+djpeg: djpeg decompresses the named JPEG file, or the standard input if no file is named, and produces an image file on the standard output
+dmc: dmc(1) configures the Disk Mount Conditioner
+dmcs
+dmesg: Dmesg displays the contents of the system message buffer
+dnctl: The dnctl utility is the user interface for controlling the dummynet(4) traffic shaper
+dns-sd: The dns-sd command is a network diagnostic tool, much like ping(8) or traceroute(8)
+do: Shell builtin commands are commands that can be executed within the run- ning shell's process
+done: Shell builtin commands are commands that can be executed within the run- ning shell's process
+dot_clean: For each dir, dot_clean recursively merges all ._
+drutil: drutil uses the DiscRecording framework to interact with attached burning devices
+dscacheutil: dscacheutil does various operations against the Directory Service cache including gathering statistics, initiating lookups, inspection, cache flush, etc
+dscl: dscl is a general-purpose utility for operating on Directory Service directory nodes
+dsconfigad: This tool allows command-line configuration of the Active Directory
+dsconfigldap: dsconfigldap allows addition or removal of LDAP server configurations
+dseditgroup: dseditgroup allows manipulation of a single named group record on either the default local node or the specified DirectoryService node
+dsenableroot: dsenableroot sets the password for the root account if enabling the root user account
+dserr: dserr prints a description for an error code
+dsexport: The dsexport utility exports records from Open Directory
+dsimport: dsimport is a tool for importing records into an Open Directory source
+dsmemberutil: dsmemberutil is a program that implements the membership API calls in a command line utility
+dsymutil: dsymutil links the DWARF debug information found in the object files for an executable executable by using debug symbols information con- tained in its symbol table
+dtd2rng
+dtd2xsd: dtd2xsd generates an XML schema document from a document type defini- tion (DTD)
+dtrace: DTrace is a comprehensive dynamic tracing framework ported from Solaris
+dtruss: dtruss prints details on process system calls
+du: The du utility displays the file system block usage for each file argu- ment and for each directory in the file hierarchy rooted in each direc- tory argument
+dumppdf.py
+dwarfdump: dwarfdump parses DWARF sections in object files, archives, and .dSY
+dwebp: This manual page documents the dwebp command
+dynamic_pager: The dynamic_pager daemon can be used to specify a base name for swapfile names using the "-F" command line option or by modifying the configura- tion plist file
+easy_install
+easy_install-2.7
+easy_install-3.7
+easy_install-3.8
+easy_install-3.8
+echo: The echo utility writes any specified operands, separated by single blank (` ') characters and followed by a newline (`\n') character, to the stan- dard output
+echo: The echo utility writes any specified operands, separated by single blank (` ') characters and followed by a newline (`\n') character, to the stan- dard output
+ed: The ed utility is a line-oriented text editor
+edquota: Edquota is a quota editor
+egrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+elif: Shell builtin commands are commands that can be executed within the run- ning shell's process
+else: Shell builtin commands are commands that can be executed within the run- ning shell's process
+emond: emond accepts events from various services, runs them through a simple rules engine, and takes action
+enable
+enc2xs: enc2xs builds a Perl extension for use by Encode from either Unicode Character Mapping files (.ucm
+enc2xs5.18: enc2xs builds a Perl extension for use by Encode from either Unicode Character Mapping files (.ucm
+enc2xs5.28: enc2xs builds a Perl extension for use by Encode from either Unicode Character Mapping files (.ucm
+encguess: The encoding identification is done by checking one encoding type at a time until all but the right type are eliminated
+encguess5.28: The encoding identification is done by checking one encoding type at a time until all but the right type are eliminated
+encode_keychange: encode_keychange produces a KeyChange string using the old and new passphrases as described in Section 5 of RFC 2274 "User-based Security Model (USM) for version 3 of the Simple Network Management Protocol (SNMPv3)"
+env: The env utility executes another utility after modifying the environment as specified on the command line
+eqn: This manual page describes the GNU version of eqn, which is part of the groff document formatting system
+erb: erb is a command line front-end for ERB library, which is an implementa- tion of eRuby
+errinfo: errinfo snoops syscall failures and prints the errno value and descrip- tion of the error number
+esac: Shell builtin commands are commands that can be executed within the run- ning shell's process
+eval: Shell builtin commands are commands that can be executed within the run- ning shell's process
+event_rpcgen.py
+ex: Vim is a text editor that is upwards compatible to Vi
+exec: Shell builtin commands are commands that can be executed within the run- ning shell's process
+execsnoop: execsnoop prints details of new processes as they are executed
+exit: Shell builtin commands are commands that can be executed within the run- ning shell's process
+expand: The expand utility processes the named files or the standard input writ- ing the standard output with tabs changed into blanks
+expect
+export: Shell builtin commands are commands that can be executed within the run- ning shell's process
+expr: The expr utility evaluates expression and writes the result on standard output
+extcheck: The extcheck utility checks a specified jar file for title and version conflicts with any extensions installed in the JDK software
+eyapp: The eyapp compiler is a front-end to the Parse::Eyapp module, which lets you compile Parse::Eyapp grammar input files into Perl LALR(1) Object Oriented parser modules
+eyapp5.18: The eyapp compiler is a front-end to the Parse::Eyapp module, which lets you compile Parse::Eyapp grammar input files into Perl LALR(1) Object Oriented parser modules
+eyapp5.28: The eyapp compiler is a front-end to the Parse::Eyapp module, which lets you compile Parse::Eyapp grammar input files into Perl LALR(1) Object Oriented parser modules
+f2py
+f2py3
+f2py3.8
+false: The false utility always exits with a nonzero exit code
+false: The false utility always exits with a nonzero exit code
+fastcgi-mono-server: XSP, mod-mono-server and fastcgi-mono-server are hosts for ASP.NET
+fastcgi-mono-server2
+fastcgi-mono-server4
+fax2ps: fax2ps reads one or more TIFF facsimile image files and prints a com- pressed form of PostScript on the standard output that is suitable for printing
+fax2tiff: Fax2tiff creates a TIFF file containing CCITT Group 3 or Group 4 encoded data from one or more files containing ``raw'' Group 3 or Group 4 encoded data (typically obtained directly from a fax modem)
+fc: Shell builtin commands are commands that can be executed within the run- ning shell's process
+fc: Shell builtin commands are commands that can be executed within the run- ning shell's process
+fcgistarter
+fcgistarter
+fddist: This prints distributions for read and write events by file descriptor, by process
+fdesetup: fdesetup is used to enable or disable FileVault, to list, add, or remove enabled FileVault users, and to obtain status about the current state of FileVault
+fdisk: In order for the BIOS to boot the kernel, certain conventions must be adhered to
+fg: Shell builtin commands are commands that can be executed within the run- ning shell's process
+fg: Shell builtin commands are commands that can be executed within the run- ning shell's process
+fgrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+fi: Shell builtin commands are commands that can be executed within the run- ning shell's process
+fibreconfig
+file: This manual page documents version 5.0
+filebyproc.d: filebyproc.
+filecoordinationd: filecoordinationd is used by the Foundation framework's NSFileCoordinator class to coordinate access to files by multiple processes, and to message registered NSFilePresenters
+fileinfo
+fileproviderctl: fileproviderctl allows you to control the fileproviderd daemon and enu- merate and manipulate files
+filtercalltree: filtercalltree reads a file containing a call tree, as generated by the sample(1) or malloc_history(1) commands, and filters or prunes it as specified by the options
+find: The find utility recursively descends the directory tree for each path listed, evaluating an expression (composed of the ``primaries'' and ``operands'' listed below) in terms of each file in the tree
+find2perl: find2perl is a little translator to convert find command lines to equivalent Perl code
+find2perl5.18: find2perl is a little translator to convert find command lines to equivalent Perl code
+findrule: "findrule" mostly borrows the interface from GNU find(1) to provide a command-line interface onto the File::Find::Rule heirarchy of modules
+findrule5.18: "findrule" mostly borrows the interface from GNU find(1) to provide a command-line interface onto the File::Find::Rule heirarchy of modules
+findrule5.28: "findrule" mostly borrows the interface from GNU find(1) to provide a command-line interface onto the File::Find::Rule heirarchy of modules
+finger: The finger utility displays information about the system users
+firmwarepasswd: The firmwarepasswd command is used to add or remove firmware passwords from a system as well as check status and other options
+fixproc: Fixes a process named "proc" by performing the specified action
+flex: Generates programs that perform pattern-matching on text
+flex++: Generates programs that perform pattern-matching on text
+fmt: The fmt utility is a simple text formatter which reads the concatenation of input files (or standard input if none are given) and produces on standard output a version of its input with lines as close to the goal length as possible without exceeding the maximum
+fold: The fold utility is a filter which folds the contents of the specified files, or the standard input if no files are specified, breaking the lines to have a maximum of 80 columns
+fontrestore: fontrestore detects fonts in /Library/Fonts, /System/Library/Fonts, and ~/Library/Fonts which are not part of the system install and moves them to /Library/Fonts (Removed), /System/Library/Fonts (Removed), and ~/Library/Fonts/Fonts (Removed) directories
+footprint: The footprint utility gathers and displays memory consumption information for the specified processes or memory graph files
+for: Shell builtin commands are commands that can be executed within the run- ning shell's process
+format-sql
+format-sql5.18
+format-sql5.28
+from: The from utility prints out the mail header lines from the invoker's mailbox
+fs_usage: The fs_usage utility presents an ongoing display of system call usage information pertaining to filesystem activity
+fsck: The first form of fsck preens a standard set of filesystems or the speci- fied filesystems
+fsck_apfs: The fsck_apfs utility verifies and repairs APFS containers and volumes
+fsck_cs: The fsck_cs utility verifies and repairs CoreStorage logical volume group metadata
+fsck_exfat: The fsck_exfat utility verifies and repairs ExFAT file systems
+fsck_hfs: The fsck_hfs utility verifies and repairs standard HFS and HFS+ file sys- tems
+fsck_msdos: The fsck_msdos utility verifies and repairs FAT file systems (more com- monly known as DOS file systems)
+fsck_udf: The fsck_udf command examines a UDF filesystem residing on devicePath for correctness
+fsharpc
+fsharpi
+fstyp: The fstyp utility attempts to determine what sort of volume is present on the given device
+fstyp_hfs: The fstyp_hfs utility is not intended to be run directly, but rather called by fstyp(8) while it is trying to determine which file system type is present on the given device
+fstyp_msdos: The fstyp_msdos utility is not intended to be run directly, but rather called by fstyp(8) while it is trying to determine which file system type is present on the given device
+fstyp_ntfs: The fstyp_ntfs utility is not intended to be run directly, but rather called by fstyp(8) while it is trying to determine which file system type is present on the given device
+fstyp_udf: The fstyp_udf utility is not intended to be run directly, but rather called by fstyp(8) while it is trying to determine which file system type is present on the given device
+function
+funzip: for more details
+fuser: The fuser utility shall write to standard output the process IDs of processes running on the local system that have one or more named files open
+fwkdp: Use fwkdp to act as a proxy for the kernel debugging KDP protocol over FireWire
+fwkpfv: Use fwkpfv to receive FireWire kprintf logging
+g++
+gacutil: gacutil is a tool used by developers to install versioned assemblies into the system Global Assembly Cache (GAC) to become part of the assemblies that are available for all applications at runtime
+gacutil2
+gapi2-codegen
+gapi2-fixup
+gapi2-parser
+gatherheaderdoc: Gatherheaderdoc processes the headerdoc output in directory and creates an index page that links to each header's documentation
+gcc
+gcore: The gcore program creates a core file image of the process specified by pid
+gcov: The llvm-cov tool shows code coverage information for programs that are instrumented to emit profile data
+gdiffmk: gdiffmk compares two groff(1), nroff(1), or troff(1) documents, file1 and file2, and creates an output which is file2 with added `margin character' (.mc
+gem: RubyGems is a sophisticated package manager for the Ruby programming lan- guage
+gen_bridge_metadata: gen_bridge_metadata is a tool that generates bridging metadata informa- tion for a given framework or set of headers
+gencat: The gencat utility merges the text NLS input files input-files..
+genstrings
+genxs: genxs is a tool for generating custom XML serialization writers and readers for classes
+getconf: The getconf utility prints the value of a POSIX or X/Open path or system configuration variable to the standard output
+getopt: The getopt utility is used to break up options in command lines for easy parsing by shell procedures, and to check for legal options
+getopts: Shell builtin commands are commands that can be executed within the run- ning shell's process
+getopts: Shell builtin commands are commands that can be executed within the run- ning shell's process
+gif2rgb
+gifbuild
+gifclrmp
+giffix
+giftext
+giftool
+git: Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals
+git-receive-pack: Invoked by git send-pack and updates the repository with the information fed from the remote end
+git-shell: This is a login shell for SSH accounts to provide restricted Git access
+git-upload-archive: Invoked by git archive --remote and sends a generated archive to the other end over the Git protocol
+git-upload-pack: Invoked by git fetch-pack, learns what objects the other side is missing, and sends them after packing
+gm4: Process macros in FILEs
+gnumake: The purpose of the make utility is to determine automatically which pieces of a large program need to be recompiled, and issue the commands to recompile them
+gperf: GNU 'gperf' generates perfect hash functions
+gpt: The gpt utility provides the necessary functionality to manipulate GUID partition tables (GPTs), but see BUGS below for how and where functional- ity is missing
+graphicssession: graphicssession is used by the Apple Mac OS X base system to initalize graphics contexts
+grep: The grep utility searches any given input files, selecting lines that match one or more patterns
+grn: grn is a preprocessor for including gremlin pictures in groff input
+grodvi: grodvi is a driver for groff that produces TeX dvi format
+groff
+groffer: The groffer program is the easiest way to use groff(1)
+grog: grog reads files and guesses which of the groff(1) options -e, -man, -me, -mm, -mom, -ms, -mdoc, -mdoc-old, -p, -R, -g, -G, -s, and -t are required for printing files, and prints the groff command including those options on the standard output
+grolbp: grolbp is a driver for groff that produces output in CAPSL and VDM for- mat suitable for Canon LBP-4 and LBP-8 printers
+grolj4: grolj4 is a driver for groff that produces output in PCL5 format suit- able for an HP Laserjet 4 printer
+grops: grops translates the output of GNU troff to PostScript
+grotty: grotty translates the output of GNU troff into a form suitable for typewriter-like devices
+groups: The groups utility has been obsoleted by the id(1) utility, and is equiv- alent to ``id -Gn [user]''
+gssd: gssd provides kernel access to the Generic Security Services API (GSS- API)
+gunzip: The gzip program compresses and decompresses files using Lempel-Ziv cod- ing (LZ77)
+gzcat: The gzip program compresses and decompresses files using Lempel-Ziv cod- ing (LZ77)
+gzexe: The gzexe utility uses gzip(1) to compress executables, producing exe- cutables that decompress on-the-fly when executed
+gzip: The gzip program compresses and decompresses files using Lempel-Ziv cod- ing (LZ77)
+h2load: benchmarking tool for HTTP/2 server <URI> Specify URI to access
+h2ph: h2ph converts any C header files specified to the corresponding Perl header file format
+h2ph5.18: h2ph converts any C header files specified to the corresponding Perl header file format
+h2ph5.28: h2ph converts any C header files specified to the corresponding Perl header file format
+h2xs: h2xs builds a Perl extension from C header files
+h2xs5.18: h2xs builds a Perl extension from C header files
+h2xs5.28: h2xs builds a Perl extension from C header files
+halt: The halt and reboot utilities flush the file system cache to disk, send all running processes a SIGTERM (and subsequently a SIGKILL) and, respec- tively, halt or restart the system
+hash: Shell builtin commands are commands that can be executed within the run- ning shell's process
+hash: Shell builtin commands are commands that can be executed within the run- ning shell's process
+hdid: Historically, hdid was both the tool used to attach a disk image and the user process used to load and decompress disk image data for the hard disk image (HDI) driver in Mac OS X
+hdik: hdik is a simple tool that can be used to attach disk images directly to the DiskImages driver
+hdiutil: hdiutil uses the DiskImages framework to manipulate disk images
+hdxml2manxml
+head: This filter displays the first count lines or bytes of each of the speci- fied files, or of the standard input if no files are specified
+headerdoc2html: Headerdoc2html processes the header file or files and generates HTML doc- umentation based on specially-formatted comments
+heap: heap lists the objects currently allocated on the heap of the specified process, as well as summary data
+help
+hexdump: The hexdump utility is a filter which displays the specified files, or the standard input, if no files are specified, in a user specified for- mat
+hidutil: See hidutil [help] for more information
+history: Shell builtin commands are commands that can be executed within the run- ning shell's process
+hiutil: hiutil is used to create .helpinde
+host: host is a simple utility for performing DNS lookups
+hostinfo: The hostinfo command displays information about the host system on which the command is executing
+hostname: The hostname utility prints the name of the current host
+hotspot.d: hotspot.
+hpftodit: hpftodit creates a font file for use with a Hewlett-Packard Laser- Jet 4-series (or newer) printer with groff -Tlj4, using data from an HP tagged font metric (TFM) file
+hpmdiagnose: Use hpmdiagnose to collect diagnostic information to help with investiga- tion of USB-C issues
+htcacheclean
+htcacheclean
+htdbm
+htdbm
+htdigest
+htdigest
+htmltree
+htmltree5.18
+htmltree5.28
+htpasswd
+htpasswd
+httpcfg: This tool is used to manage the certificates used by the HttpListener embeddable server class when the HttpListener is configured as an HTTPS server instead of an HTTP server
+httpd
+httpd
+httpd-wrapper: This tool extracts environment variable definitions from a specific plist file and then execs the httpd executable, thereby allowing variables to be used in Apache's paramaterized config files
+httxt2dbm
+httxt2dbm
+ibtool
+iconutil: iconutil converts between '.iconset
+iconv: The iconv program converts text from one encoding to another encoding
+ictool
+id: The id utility displays the user and group names and numeric IDs, of the calling process, to the standard output
+idle
+idle2.7
+idle3
+idle3
+idle3.7
+idle3.8
+idle3.8
+idlj: The IDL-to-Java Compiler generates the Java bindings for a given IDL file
+if: Shell builtin commands are commands that can be executed within the run- ning shell's process
+ifconfig: The ifconfig utility is used to assign an address to a network interface and/or configure network interface parameters
+ikdasm
+ilasm: ilasm is the Mono ILAsm assembler
+illinkanalyzer: Linker analyzer is a command line tool to analyze dependencies, which were recorded during linker processing, and led linker to mark an item to keep it in the resulting linked assembly
+imagetops
+img2webp: This manual page documents the img2webp command
+imptrace: The imptrace utility displays a trace of importance donation events
+in
+indent: indent is a C program formatter
+indxbib: indxbib makes an inverted index for the bibliographic databases in filename..
+inflatehd
+info
+infocmp: infocmp can be used to compare a binary terminfo entry with other ter- minfo entries, rewrite a terminfo description to take advantage of the use= terminfo field, or print out a terminfo description from the binary file (term) in a variety of formats
+infokey: Compile infokey source file to infokey file
+infotocap: infotocap looks in file for terminfo descriptions
+install: The file(s) are copied to the target file or directory
+install-info: Install or delete dir entries from INFO-FILE in the Info directory file DIR-FILE
+install_name_tool: Install_name_tool changes the dynamic shared library install names and or adds, changes or deletes the rpaths recorded in a Mach-O binary
+installer: The installer command is used to install macOS installer packages to a specified domain or volume
+installvst
+instmodsh: A little interface to ExtUtils::Installed to examine installed modules, validate your packlists and even create a tarball from an installed module
+instmodsh5.18: A little interface to ExtUtils::Installed to examine installed modules, validate your packlists and even create a tarball from an installed module
+instmodsh5.28: A little interface to ExtUtils::Installed to examine installed modules, validate your packlists and even create a tarball from an installed module
+instruments
+ioalloccount: ioalloccount displays some accounting of memory allocated by IOKit allo- cators, including object instances, in the kernel
+ioclasscount: ioclasscount displays the instance counts of OSObject-based C++ classes in the kernel, incremented by the number of direct subclasses that have an instance count of at least 1
+iofile.d: This prints the total I/O wait times for each filename by process
+iofileb.d: This prints a summary of requested disk activity by pathname, providing totals of the I/O events in bytes
+iopattern: This prints details on the I/O access pattern for the disks, such as percentage of events that were of a random or sequential nature
+iopending: This samples the number of disk events that are pending and plots a distribution graph
+ioreg: ioreg displays the I/O Kit registry
+iosnoop: iosnoop prints I/O events as they happen, with useful details such as UID, PID, block number, size, filename, etc
+iostat: The iostat utility displays kernel I/O statistics on terminal, device and cpu operations
+iotop: iotop tracks disk I/O by process, and prints a summary report that is refreshed every interval
+ip2cc: Ip2cc is a program to lookup countries of IP addresses
+ip2cc5.18: Ip2cc is a program to lookup countries of IP addresses
+ip2cc5.28: Ip2cc is a program to lookup countries of IP addresses
+ipconfig: ipconfig is a utility that communicates with the IPConfiguration agent to retrieve and set IP configuration parameters
+ipcount
+ipcount5.18
+ipcount5.28
+ipcrm: Ipcrm removes the specified message queues, semaphores and shared memory segments
+ipcs: The ipcs utility provides information on System V interprocess communica- tion (IPC) facilities on the system
+ippeveprinter: ippeveprinter is a simple Internet Printing Protocol (IPP) server con- forming to the IPP Everywhere (PWG 5100.14
+ippfind: ippfind finds services registered with a DNS server or available through local devices
+ipptool: ipptool sends IPP requests to the specified printer-uri and tests and/or displays the results
+iprofiler
+iptab
+iptab5.18
+iptab5.28
+ipy
+ipy64
+ipyw
+ipyw64
+ir
+ir64
+irb: irb is the REPL(read-eval-print loop) environment for Ruby programs
+irw
+irw64
+jar: The jar tool combines multiple files into a single JAR archive file
+jarsigner: The jarsigner tool is used for two purposes: 1
+java: The java tool launches a Java application
+javac: The javac tool reads class and interface definitions, written in the Java programming language, and compiles them into bytecode class files
+javadoc: The Javadoc tool parses the declarations and documentation comments in a set of Java source files and produces a corresponding set of HTML pages describing (by default) the public and protected classes, nested classes (but not anonymous inner classes), interfaces, constructors, methods, and fields
+javah: The javah command generates C header and source files that are needed to implement native methods
+javap: The javap command disassembles a Java class file
+javapackager
+javaws: The javaws command launches Java Web Start, which is the reference implementation of the Java Network Launching Protocol (JNLP)
+jcmd
+jconsole: The jconsole command launches a graphical console tool that enables you to monitor and manage Java applications and virtual machines on a local or remote machine
+jcontrol
+jdb: The Java debugger, jdb, is a simple command-line debugger for Java classes
+jdeps
+jemalloc-config
+jemalloc.sh
+jeprof
+jhat: The jhat command parses a java heap dump file and launches a webserver
+jhsdb
+jimage
+jinfo: jinfo prints Java configuration information for a given Java process or core file or a remote debug server
+jjs
+jmap: jmap prints shared object memory maps or heap memory details of a given process or core file or remote debug server
+jmc
+jobs: Shell builtin commands are commands that can be executed within the run- ning shell's process
+jobs: Shell builtin commands are commands that can be executed within the run- ning shell's process
+join: The join utility performs an ``equality join'' on the specified files and writes the result to the standard output
+jot: The jot utility is used to print out increasing, decreasing, random, or redundant data, usually numbers, one per line
+jpegtran: jpegtran performs various useful transformations of JPEG files
+jpgicc: lcms is a standalone CMM engine, which deals with the color management
+jps: The jps tool lists the instrumented HotSpot Java Virtual Machines (JVMs) on the target system
+jrunscript: jrunscript is a command line script shell
+jsadebugd: jsadebugd attaches to a Java process or core file and acts as a debug server
+jshell
+json_pp: json_pp converts between some input and output formats (one of them is JSON)
+json_pp5.18: json_pp converts between some input and output formats (one of them is JSON)
+json_pp5.28: json_pp converts between some input and output formats (one of them is JSON)
+json_xs: json_xs converts between some input and output formats (one of them is JSON)
+json_xs5.28: json_xs converts between some input and output formats (one of them is JSON)
+jstack: jstack prints Java stack traces of Java threads for a given Java process or core file or a remote debug server
+jstat: The jstat tool displays performance statistics for an instrumented HotSpot Java virtual machine (JVM)
+jstatd: The jstatd tool is an RMI server application that monitors for the cre- ation and termination of instrumented HotSpot Java virtual machines (JVMs) and provides a interface to allow remote monitoring tools to attach to JVMs running on the local host
+jvisualvm
+kadmin: The kadmin program is used to make modifications to the Kerberos data- base, either remotely via the kadmind(8) daemon, or locally (with the -l option)
+kadmin.local: kadmin.loca
+kcc: kcc Options supported: --version version information --help help SEE ALSO kdestroy(1), kinit(1) HEIMDAL Sep 30, 2011 HEIMDAL 
+kcditto
+kdcsetup: kdcsetup is a tool for configuring an Apple Open Directory KDC
+kdestroy: kdestroy removes one credential or the current set of tickets
+kextcache: The kextcache program creates kext caches, which speed up kext loading operations
+kextfind: The kextfind utility locates and prints information, or generates reports, about kernel extensions (kexts) matching the search criteria in query from among those in the named directory and extension arguments
+kextlibs: The kextlibs utility searches for library kexts that define symbols needed for linking by kext, printing their bundle identifiers and ver- sions to stdout
+kextload: The kextload program is used to explicitly load kernel extensions (kexts)
+kextstat: The kextstat utility displays the status of any kexts currently loaded in the kernel
+kextunload: The kextunload program is used to terminate and unregister I/O Kit objects associated with a kernel extension (kext) and to unload the code and personalities for that kext
+kextutil: The kextutil program is used to explicitly load kernel extensions (kexts), diagnose problems with kexts, and to generate symbol files for debugging kexts
+keytool: keytool is a key and certificate management utility
+kgetcred: kgetcred obtains a ticket for a service
+kill: The kill utility sends a signal to the processes specified by the pid op- erands
+kill: The kill utility sends a signal to the processes specified by the pid op- erands
+kill.d: kill.
+killall: The killall utility kills processes selected by name, as opposed to the selection by pid as done by kill(1)
+kinit: kinit is used to authenticate to the Kerberos server as principal, or if none is given, a system generated default (typically your login name at the default realm), and acquire a ticket granting ticket that can later be used to obtain tickets for other services
+klist: klist reads and displays the current tickets in the credential cache (also known as the ticket file)
+klist_cdhashes: The klist_cdhashes command should not be run directly
+kpasswd: kpasswd is the client for changing passwords
+krb5-config: krb5-config tells the application programmer what special flags to use to compile and link programs against the libraries installed by Heimdal
+krbservicesetup: krbservicesetup is used by sso_util to configure Kerberized services on the current host
+ksh: Ksh is a command and programming language that executes commands read from a terminal or a file
+kswitch: Supported options: -t type, --type=type type of credential cache -c cache, --cache=cache name of credential cache to switch to -p principal, --principal=principal name of principal to switch to -i, --interactive interactive switching between credentials
+ktrace: ktrace can configure the system to trace events, or record them to a file, and print a human-readable representation of the events
+ktutil: ktutil is a program for managing keytabs
+lam: The lam utility copies the named files side by side onto the standard output
+languagesetup: languagesetup The languagesetup command changes the default system lan- guage that is chosen in the Setup Assistant application
+last: Last will list the sessions of specified users, ttys, and hosts, in reverse time order
+lastcomm: lastcomm gives information on previously executed commands
+lastwords: This prints the last few system calls for processes matching the given name, when they exit
+latency: The latency utility provides scheduling and interrupt-latency statistics
+launchctl: launchctl interfaces with launchd to manage and inspect daemons, agents and XPC services
+launchd: launchd manages processes, both for the system as a whole and for indi- vidual users
+layerutil: Creates a compiled layered image stack (lcr) file from a layered input file source, such as an lsr or suitably structured Photoshop (psd) file
+lc: lc tool is a license compiler for Mono
+ld: The ld command combines several object files and libraries, resolves ref- erences, and produces an ouput file
+ldapadd: ldapmodify is a shell-accessible interface to the ldap_add_ext(3), ldap_modify_ext(3), ldap_delete_ext(3) and ldap_rename(3)
+ldapcompare: ldapcompare is a shell-accessible interface to the ldap_compare_ext(3) library call
+ldapdelete: ldapdelete is a shell-accessible interface to the ldap_delete_ext(3) library call
+ldapexop: ldapexop issues the LDAP extended operation specified by oid or one of the special keywords whoami, cancel, or refresh
+ldapmodify: ldapmodify is a shell-accessible interface to the ldap_add_ext(3), ldap_modify_ext(3), ldap_delete_ext(3) and ldap_rename(3)
+ldapmodrdn: ldapmodrdn is a shell-accessible interface to the ldap_rename(3) library call
+ldappasswd: ldappasswd is a tool to set the password of an LDAP user
+ldapsearch: ldapsearch is a shell-accessible interface to the ldap_search_ext(3) library call
+ldapurl: ldapurl is a command that allows to either compose or decompose LDAP URIs
+ldapwhoami: ldapwhoami implements the LDAP "Who Am I?" extended operation
+leaks: leaks identifies leaked memory -- memory that the application has allo- cated, but has been lost and cannot be freed
+leave: The leave utility waits until the specified time, then reminds you that you have to leave
+less: Less is a program similar to more (1), but which allows backward move- ment in the file as well as forward movement
+lessecho: lessecho is a program that simply echos its arguments on standard out- put
+let
+lex: Generates programs that perform pattern-matching on text
+libnetcfg: The libnetcfg utility can be used to configure the libnet
+libnetcfg5.18: The libnetcfg utility can be used to configure the libnet
+libnetcfg5.28: The libnetcfg utility can be used to configure the libnet
+libpng-config
+libpng16-config
+libtool: The libtool command takes the specified input object files and creates a library for use with the link editor, ld(1)
+link: The ln utility creates a new directory entry (linked file) which has the same modes as the original file
+linkicc
+lipo: The lipo tool creates or operates on ``universal'' (multi-architecture) files
+lkbib: lkbib searches bibliographic databases for references that contain the keys key..
+lldb: lldb is the command line interface for the LLDB debugger library
+llvm-g++
+llvm-gcc
+ln: The ln utility creates a new directory entry (linked file) which has the same modes as the original file
+loads.d: These are the same load averages that the "uptime" command prints
+local: The local(8) daemon processes delivery requests from the Postfix queue manager to deliver mail to local recipients
+locale: locale displays information about the current locale, or a list of all available locales
+localedef: The localedef utility reads source definitions for one or more locale categories belonging to the same locale from the file named in the -i option (if specified) or from standard input
+localemanager: localemanager creates, destroys, and edits OpenDirectory Server Locale information
+locate: The locate program searches a database for all pathnames which match the specified pattern
+lockstat: The lockstat utility gathers and displays kernel locking and profiling statistics
+log: log is used to access system wide log messages created by os_log, os_trace and other logging systems
+logger: Logger provides a shell command interface to the syslog(3) system log module
+login: The login utility logs users (and pseudo-users) into the computer system
+logname: The logname utility writes the user's login name to standard output fol- lowed by a newline
+logout: Shell builtin commands are commands that can be executed within the run- ning shell's process
+logresolve
+logresolve
+look: The look utility displays any lines in file which contain string as a prefix
+lookbib: lookbib prints a prompt on the standard error (unless the standard input is not a terminal), reads from the standard input a line contain- ing a set of keywords, searches the bibliographic databases filename..
+lorder: The lorder utility uses nm(1) to determine interdependencies in the list of object files specified on the command line
+lp: lp submits files for printing or alters a pending job
+lpadmin: lpadmin configures printer and class queues provided by CUPS
+lpc: lpc provides limited control over printer and class queues provided by CUPS
+lpinfo: lpinfo lists the available devices or drivers known to the CUPS server
+lpmove: lpmove moves the specified job or all jobs from source to destination
+lpoptions: lpoptions displays or sets printer options and defaults
+lpq: lpq shows the current print queue status on the named printer
+lpr: lpr submits files for printing
+lprm: lprm cancels print jobs that have been queued for printing
+lpstat: lpstat displays status information about the current classes, jobs, and printers
+ls: For each operand that names a file of a type other than directory, ls displays its name as well as any requested, associated information
+lsappinfo
+lsbom: The lsbom command interprets the contents of binary bom (bom(5)) files
+lskq: The lskq command enumerates kqueues and registered kevents of running processes
+lsm: The Latent Semantic Mapping framework is a language independent, Unicode based technology that builds maps and uses them to classify texts into one of a number of categories
+lsmp
+lsof: Lsof revision 4.9
+lsvfs: The lsvfs command lists information about the currently loaded virtual filesystem modules
+lwp-download: The lwp-download program will save the file at url to a local file
+lwp-download5.18: The lwp-download program will save the file at url to a local file
+lwp-download5.28: The lwp-download program will save the file at url to a local file
+lwp-dump: The lwp-dump program will get the resource indentified by the URL and then dump the response object to STDOUT
+lwp-dump5.18: The lwp-dump program will get the resource indentified by the URL and then dump the response object to STDOUT
+lwp-dump5.28: The lwp-dump program will get the resource indentified by the URL and then dump the response object to STDOUT
+lwp-mirror: This program can be used to mirror a document from a WWW server
+lwp-mirror5.18: This program can be used to mirror a document from a WWW server
+lwp-mirror5.28: This program can be used to mirror a document from a WWW server
+lwp-request: This program can be used to send requests to WWW servers and your local file system
+lwp-request5.18: This program can be used to send requests to WWW servers and your local file system
+lwp-request5.28: This program can be used to send requests to WWW servers and your local file system
+m4: Process macros in FILEs
+mDNSResponder: mDNSResponder (also known as mdnsd on some systems) is a daemon invoked at boot time to implement Multicast DNS and DNS Service Discovery
+mDNSResponderHelper: mDNSResponderHelper is an executable invoked by launchd to provide privi- lege separation to the mDNSResponder daemon
+macbinary: applesingle, binhex, macbinary are implemented as a single tool with mul- tiple names
+macerror: The macerror script translates Mac error numbers into their symbolic name and description
+macerror5.18: The macerror script translates Mac error numbers into their symbolic name and description
+macerror5.28: The macerror script translates Mac error numbers into their symbolic name and description
+machine: The machine command displays the machine type
+macpack: macpack is a tool used to package managed assemblies (like System.Win
+mail
+mailq: The Postfix sendmail(1) command implements the Postfix to Sendmail com- patibility interface
+mailx
+make: The purpose of the make utility is to determine automatically which pieces of a large program need to be recompiled, and issue the commands to recompile them
+makecert: Create an X.50
+makeinfo: Translate Texinfo source documentation to various other formats, by default Info files suitable for reading online with Emacs or standalone GNU Info
+malloc_history: malloc_history inspects a given process and lists the malloc and anony- mous VM allocations performed by it
+man: man formats and displays the on-line manual pages
+manpath: man formats and displays the on-line manual pages
+mconfig: mconfig can be used to edit .NE
+mcs: mcs is the Turbo C# compiler (also known as the Mono C# compiler), it is an implementation of the ECMA-334 language specification
+mcxquery: mcxquery is a utility to determine the effective managed preferences for a user logging in to a workgroup from a specific computer
+mcxrefresh: mcxrefresh is a utility to force the client to re-read the managed pref- erences on the server for a user
+md5: The md5 utility takes as input a message of arbitrary length and produces as output a ``fingerprint'' or ``message digest'' of the input
+mdassembler: mdassembler has been obsoleted by mdoc(1)
+mddiagnose: The mddiagnose tool gathers system and Spotlight information in order to assist Apple when investigating issues related to Spotlight
+mdfind: The mdfind command consults the central metadata store and returns a list of files that match the given metadata query
+mdimport: mdimport is used to test Spotlight plug-ins, list the installed plug-ins and schema, and re-index files handled by a plug-in when a new plug-in is installed
+mdls: The mdls command prints the values of all the metadata attributes associ- ated with the files provided as an argument
+mdoc
+mdoc-assemble: mdoc assemble creates .tre
+mdoc-export-html: mdoc export-html creates HTML files from the mdoc(5)-formatted documen- tation XML files within DIRECTORIES
+mdoc-export-msxdoc: mdoc export-msxdoc creates Microsoft XML Documentation (as produced by csc /doc) from the mdoc(5)-formatted documentation XML files within DIRECTORIES
+mdoc-update: mdoc update is responsible for the following: * Creating documentation stubs based on ASSEMBLIES
+mdoc-validate: mdoc validate validates the specified PATHS against a specified format schema
+mdutil: The mdutil command is useful for managing the metadata stores for mounted volumes
+mdvalidater: mdvalidator has been obsoleted by mdoc(1)
+memory_pressure: A tool to apply real or simulate memory pressure on the system SEE ALSO vm_stat(1) Mac OS X Mar 7, 2013 Mac OS X 
+mesg: The mesg utility is invoked by a user to control write access others have to a terminal device
+mg: mg is intended to be a small, fast, and portable editor for people who can't (or don't want to) run emacs for one reason or another, or are not familiar with the vi(1) editor
+mib2c: The mib2c tool is designed to take a portion of the MIB tree (as defined by a MIB file) and generate the template C code necessary to implement the relevant management objects within it
+mib2c-update: Use mib2c-update to generate your mib2c code templates, and it will track the original code and the changes you make to the code
+mig: The mig command invokes the Mach Interface Generator to generate Remote Procedure Call (RPC) code for client-server style Mach IPC from speci- fication files
+mkbom: The mkbom command creates a bill-of-materials (bom(5))
+mkbundle: mkbundle generates an executable program that will contain static copies of the assemblies listed on the command line
+mkdep
+mkdir: The mkdir utility creates the directories named as operands, in the order specified, using mode rwxrwxrwx (0777) as modified by the current umask(2)
+mkextunpack: The mkextunpack program lists the contents of a multikext file, mkext_file, or unarchives the contents into output_directory (which must exist)
+mkfifo: mkfifo creates the fifos requested, in the order specified
+mkfile: mkfile creates one or more files that are suitable for use as NFS- mounted swap areas
+mklocale: The mklocale utility reads a LC_CTYPE source file from standard input and produces a LC_CTYPE binary file on standard output suitable for placement in /usr/share/locale/language/LC_CTYPE
+mknod: The mknod command creates device special files
+mkpassdb: mkpassdb creates or modifies the password server database directly
+mktemp: The mktemp utility takes each of the given file name templates and over- writes a portion of it to create a file name
+mmroff: mmroff is a simple preprocessor for groff, it is used for expanding references in mm, see groff_mm(7)
+mnthome: The mnthome command unmounts the AFP (AppleShare) home directory that was automounted as guest, and remounts it with the correct privileges by log- ging into the AFP server using the current username and password
+mod
+mod-mono-server: XSP, mod-mono-server and fastcgi-mono-server are hosts for ASP.NET
+mod-mono-server2
+mod-mono-server4
+mono: mono is a runtime implementation of the ECMA Common Language Infra- structure
+mono-api-html
+mono-api-info: Expose the structure of your CLR assemblies by examining their IL and giving XML output
+mono-cil-strip: mono-cil-strip is a tool which takes an assembly, and empty its method bodies
+mono-configuration-crypto: mono-configuration-crypto is a utility to manage mono encryption key container store and to encrypt/decrypt config file sections
+mono-find-provides
+mono-find-requires
+mono-heapviz
+mono-service: The mono-service is a host to run services built with the ServicePro- cess assembly
+mono-service2
+mono-sgen
+mono-shlib-cop: mono-shlib-cop is a tool that inspects a managed assembly looking for erroneous or suspecious usage of shared libraries
+mono-symbolicate: mono-symbolicate is a tool that converts a stack trace with <filename unknown>:0 into one with file names and line numbers
+mono-test-install
+mono-xmltool: mono-xmltool is a command line front end for various functions avail- able in the Mono XML class libraries
+mono32
+mono64
+monodis: The monodis program is used to dump the contents an ECMA/ISO CIL image (contained in .EX
+monodocer: monodocer has been obsoleted by mdoc(1)
+monodocs2html: monodocs2html has been obsoleted by mdoc(1)
+monodocs2slashdoc
+monolinker: monolinker is a CIL Linker
+monop: Monop is a tool that allows you to view the outline of a class
+monop2
+moo-outdated
+moo-outdated5.18
+moo-outdated5.28
+moose-outdated
+moose-outdated5.18
+moose-outdated5.28
+more: Less is a program similar to more (1), but which allows backward move- ment in the file as well as forward movement
+mount: The mount command calls the mount(2) system call to prepare and graft a special device or the remote node (rhost:path) on to the file system tree at the point mount_point, which must be a directory
+mount_9p: The mount_9p command mounts the 9P filesystem associated with fs_tag
+mount_acfs: mount_acfs is a mount helper utility that mounts an Xsan volume on client machines
+mount_afp: The mount_afp command mounts the AFP volume denoted by the afp_url afp://[user[;AUTH=uamname][:password]@]host[:port]/volumename at the mount point indicated by node
+mount_apfs: The mount_apfs command attaches the APFS volume indicated by the device special to the global file system namespace at the location indicated by directory
+mount_cd9660: The mount_cd9660 command attaches the ISO-9660 filesystem residing on the device special to the global filesystem namespace at the location indi- cated by node
+mount_cddafs: The mount_cddafs command attaches the CDDA filesystem residing on the device special to the global filesystem namespace at the location indi- cated by node
+mount_devfs
+mount_exfat: The mount_exfat command mounts the ExFAT filesystem from the device device onto the directory given by directory
+mount_fdesc: The mount_fdesc command attaches an instance of the per-process file descriptor namespace to the global filesystem namespace
+mount_ftp: The mount_ftp command mounts a FTP-enabled server directory at ftp://host[:port][/path] at the mount point indicated by node
+mount_hfs: The mount_hfs command attaches the HFS file system residing on the device special to the global file system namespace at the location indicated by directory
+mount_msdos: The mount_msdos command attaches the MS-DOS filesystem residing on the device special to the global filesystem namespace at the location indi- cated by node
+mount_nfs: The mount_nfs command calls the mount(2) system call to prepare and graft a remote NFS file system ( server:/path ) on to the file system tree at the point directory
+mount_ntfs: The mount_ntfs command attaches the NTFS file system residing on the device special to the global file system namespace at the location indi- cated by node
+mount_smbfs: The mount_smbfs command mounts a share from a remote server using SMB/CIFS protocol
+mount_udf: The mount_udf command attaches the UDF filesystem residing on the device devicePath to the global filesystem namespace at the location indicated by mountPath
+mount_webdav: The mount_webdav command mounts the WebDAV-enabled server directory at [scheme://]host[:port][/path] at the mount point indicated by node
+mozroots: This program downloads the trusted root certificates from the Mozilla LXR web site into the Mono certificate store
+mp2bug: The mp2bug utilty is used to generate a mod_perl bug report template which can be filled out and submitted to the mod_perl project
+mpioutil: mpioutil is a utility to manage multiple paths to a SCSI Logical Unit
+mprof-report: mprof-report is the report generator for Mono's log profiler
+msbuild: Builds the specified targets in the project file
+msgs: The msgs utility is used to read system messages
+mtree: The mtree utility compares the file hierarchy rooted in the current directory against a specification read from the standard input
+mv: In its first form, the mv utility renames the file named by the source operand to the destination path named by the target operand
+naked
+nano: This manual page briefly documents the nano command
+native2ascii: The Java compiler and other Java tools can only process files that con- tain Latin-1 or Unicode-encoded (\udddd notation) characters
+nbdst: nbdst is used during NetBoot to associate a shadow file with the disk image being used as the root device
+nc: The nc (or netcat) utility is used for just about anything under the sun involving TCP or UDP
+ncal: The cal utility displays a simple calendar in traditional format and ncal offers an alternative layout, more options and the date of Easter
+ncctl: ncctl controls the caller's kernel Kerberos credentials for any of the specified path's associated NFS mounts
+ncdestroy: ncctl controls the caller's kernel Kerberos credentials for any of the specified path's associated NFS mounts
+ncinit: ncctl controls the caller's kernel Kerberos credentials for any of the specified path's associated NFS mounts
+nclist: ncctl controls the caller's kernel Kerberos credentials for any of the specified path's associated NFS mounts
+ncurses5.4-config: The ncurses5.4-confi
+ndp: The ndp command manipulates the address mapping table used by Neighbor Discovery Protocol (NDP)
+neqn: The neqn program is actually just a shell script which invokes the eqn(1) command with the ascii output device
+net-server: The net-server program gives a simple way to test out code and try port connection parameters
+net-server5.18: The net-server program gives a simple way to test out code and try port connection parameters
+net-server5.28: The net-server program gives a simple way to test out code and try port connection parameters
+net-snmp-cert
+net-snmp-config: The net-snmp-config shell script is designed to retrieve the configura- tion information about the libraries and binaries dealing with the Sim- ple Network Management Protocol (SNMP), built from the net-snmp source package
+net-snmp-create-v3-user: The net-snmp-create-v3-user shell script is designed to create a new user in net-snmp configuration file (/var/net-snmp/snmpd.con
+netbiosd: netbiosd is responsible for interacting with NetBIOS networks
+netstat: The netstat command symbolically displays the contents of various net- work-related data structures
+nettop: The nettop program displays a list of sockets or routes
+networksetup: The networksetup command is used to configure network settings typically configured in the System Preferences application
+newaliases: The Postfix sendmail(1) command implements the Postfix to Sendmail com- patibility interface
+newfs_apfs: The newfs_apfs command creates a new APFS container on the device and/or adds a new APFS volume to a container
+newfs_exfat: The newfs_exfat utility creates an ExFAT file system on device special
+newfs_hfs: Newfs_hfs builds an HFS Plus file system on the specified special device
+newfs_msdos: The newfs_msdos utility creates a FAT12, FAT16, or FAT32 file system on device special, using disktab(5) entry disktype to determine geometry, if required
+newfs_udf: The newfs_udf command builds the UDF filesystem on the specified special device
+newgrp: The newgrp utility creates a new shell execution environment with modi- fied real and effective group IDs
+newproc.d: newproc.
+newsyslog: The newsyslog utility should be scheduled to run periodically by cron(8)
+nfs4mapid: In the first form, nfs4mapid shows translations from NFSv4 string repre- sentations of users, and with the -G option, groups, to the corresponding local uids and gids
+nfsd: nfsd runs on an NFS server machine to service NFS and MOUNT protocol requests from NFS client machines
+nfsiod: nfsiod is deprecated
+nfsstat: nfsstat displays statistics kept about NFS client and server activity, active user activity, exported directories, and mount information
+nghttp: HTTP/2 client <URI> Specify URI to access
+nghttpd: HTTP/2 server <PORT> Specify listening port number
+nghttpx: A reverse proxy for HTTP/2, and HTTP/1
+nice: nice runs utility at an altered scheduling priority
+nl: The nl utility reads lines from the named file or the standard input if the file argument is omitted, applies a configurable line numbering fil- ter operation and writes the result to the standard output
+nlcontrol: The NETLOGON channel is a secure connection to a Windows Domain Con- troller that is used for non-Kerberos user authentication
+nm: As of Xcode 8.
+nmedit: Nmedit changes the global symbols not listed in the list_file file of the -s list_file option to static symbols
+nohup: The nohup utility invokes utility with its arguments and at this time sets the signal SIGHUP to be ignored
+nologin: The nologin utility displays a message that an account is not available and exits non-zero
+notifyd: notifyd is the server for the Mac OS X notification system described in notify(3)
+notifyutil: notifyutil is a command-line utility for interacting with the notify(3) notification system and the notifyd(8) server
+nroff: The nroff script emulates the nroff command using groff
+nscurl
+nslookup: Nslookup is a program to query Internet domain name servers
+nsupdate: nsupdate is used to submit Dynamic DNS Update requests as defined in RFC 2136 to a name server
+nuget
+nvram: The nvram command allows manipulation of firmware NVRAM variables
+objdump: The llvm-objdump utility prints the contents of object files and final linked images named on the command line
+ocspcheck
+ocspd: ocspd performs caching and network fetching of Certificate Revocation Lists (CRLs) and Online Certificate Status Protocol (OCSP) responses
+od: The od utility is a filter which displays the specified files, or stan- dard input if no files are specified, in a user specified format
+odutil: Use odutil to look at internal state information for opendirectoryd, enable or disable logging, or change statistics settings
+open: The open command opens a file (or a directory or URL), just as if you had double-clicked the file's icon
+opendiff
+opensnoop: opensnoop tracks file opens
+openssl: OpenSSL is a cryptography toolkit implementing the Transport Layer Secu- rity (TLS v1) network protocol, as well as related cryptography stan- dards
+opj_compress
+opj_decompress
+opj_dump
+orbd: The Server Manager included with the orbd tool is used to enable clients to transparently locate and invoke persistent objects on server in the CORBA environment
+osacompile: osacompile compiles the given files, or standard input if none are listed, into a single output script
+osadecompile: osadecompile writes the source text of the specified compiled script file to standard output
+osalang: osalang prints information about installed OSA languages
+osascript: osascript executes the given OSA script, which may be plain text or a compiled script (.scpt
+otctl: Command line interface do provide trust and sycning related information in sysdiagnose
+otool: The command line shim llvm-otool takes all the same options as the original otool(1) command and executes an equivalent objdump(1) com- mand
+pack200: The pack200 tool is a Java application that transforms a JAR file into a compressed pack200 file using the Java gzip compressor
+package-stash-conflicts
+package-stash-conflicts5.18
+package-stash-conflicts5.28
+pagesize: The pagesize utility prints the size of a page of memory in bytes, as returned by getpagesize(3)
+pagestuff: pagestuff displays information about the specified logical pages of a file conforming to the Mach-O executable format
+pal2rgb: Pal2rgb converts a palette color TIFF image to a full color image by applying the colormap of the palette image to each sample to generate a full color RGB image
+passwd: The passwd utility changes the user's password
+paste: The paste utility concatenates the corresponding lines of the given input files, replacing all but the last file's newline characters with a single tab character, and writes the resulting lines to standard output
+patch: patch takes a patch file patchfile containing a difference listing pro- duced by the diff program and applies those differences to one or more original files, producing patched versions
+pathchk: The pathchk utility checks whether each of the specified pathname argu- ments is valid or portable
+pathopens.d: This program prints a count of the number of times files have been suc- cessfully opened
+pax: pax will read, write, and list the members of an archive file and will copy directory hierarchies
+pbcopy: pbcopy takes the standard input and places it in the specified paste- board
+pbpaste: pbcopy takes the standard input and places it in the specified paste- board
+pcap-config: When run with the --cflags option, pcap-config writes to the standard output the -I compiler flags required to include libpcap's header files
+pcre-config: pcre-config returns the configuration of the installed PCRE libraries and the options required to compile a program to use them
+pcregrep: pcregrep searches files for character patterns, in the same way as other grep commands do, but it uses the PCRE regular expression library to support patterns that are compatible with the regular expressions of Perl 5
+pcretest: If pcretest is given two filename arguments, it reads from the first and writes to the second
+pcsctest
+pdb2mdb: This tool is used to convert debugging symbols generated by Microsoft's compilers into debugging symbols that can be consumed by Mono's run- time
+pdf2txt.py
+pdisk: pdisk is a menu driven program which partitions disks using the standard Apple disk partitioning scheme described in "Inside Macintosh: Devices"
+pedump
+periodic: The periodic utility is intended to be called by launchd(8) to execute shell scripts located in the specified directory
+perl: Perl officially stands for Practical Extraction and Report Language, except when it doesn't
+perl5.18: Perl officially stands for Practical Extraction and Report Language, except when it doesn't
+perl5.28: Perl officially stands for Practical Extraction and Report Language, except when it doesn't
+perlbug: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+perlbug5.18: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+perlbug5.28: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+perldoc: perldoc looks up a piece of documentation in .po
+perldoc5.18: perldoc looks up a piece of documentation in .po
+perldoc5.28: perldoc looks up documentation in .po
+perlivp: The perlivp program is set up at Perl source code build time to test the Perl version it was built under
+perlivp5.18: The perlivp program is set up at Perl source code build time to test the Perl version it was built under
+perlivp5.28: The perlivp program is set up at Perl source code build time to test the Perl version it was built under
+perlthanks: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+perlthanks5.18: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+perlthanks5.28: This program is designed to help you generate and send bug reports (and thank-you notes) about perl5 and the modules which ship with it
+permview: This tools allow to list the declarative security attributes present in an assembly
+peverify
+pfbtops: pfbtops translates a PostScript font in .pf
+pfctl: The pfctl utility communicates with the packet filter device
+pgrep: The pgrep command searches the process table on the running system and prints the process IDs of all processes that match the criteria given on the command line
+phar: The PHAR file format provides a way to put entire PHP applications into a single file called a "phar" (PHP Archive) for easy distribution and installation
+phar.phar: The PHAR file format provides a way to put entire PHP applications into a single file called a "phar" (PHP Archive) for easy distribution and installation
+php: PHP is a widely-used general-purpose scripting language that is espe- cially suited for Web development and can be embedded into HTML
+php-config: php-config is a simple shell script for obtaining information about installed PHP configuration
+php-fpm: PHP is a widely-used general-purpose scripting language that is espe- cially suited for Web development and can be embedded into HTML
+phpize: phpize is a shell script to prepare PHP extension for compiling
+pic: This manual page describes the GNU version of pic, which is part of the groff document formatting system
+pico: This manual page briefly documents the nano command
+piconv: piconv is perl version of iconv, a character encoding converter widely available for various Unixen today
+piconv5.18: piconv is perl version of iconv, a character encoding converter widely available for various Unixen today
+piconv5.28: piconv is perl version of iconv, a character encoding converter widely available for various Unixen today
+pidpersec.d: This script prints the number of new processes created per second
+ping: The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway
+ping6: The ping6 utility uses the ICMPv6 protocol's mandatory ICMP6_ECHO_REQUEST datagram to elicit an ICMP6_ECHO_REPLY from a host or gateway
+pip
+pip3
+pip3
+pip3
+pip3.7
+pip3.8
+pip3.8
+pkgbuild: A ``component package'' contains payload to be installed by the OS X Installer
+pkgutil: pkgutil reads and manipulates Mac OS X Installer flat packages, and pro- vides access to the ``receipt'' database used by the Installer
+pkill: The pgrep command searches the process table on the running system and prints the process IDs of all processes that match the criteria given on the command line
+pl: pl can be used to check the syntax of old-style ASCII property list files
+pl2pm: pl2pm is a tool to aid in the conversion of Perl4-style .p
+pl2pm5.18: pl2pm is a tool to aid in the conversion of Perl4-style .p
+pl2pm5.28: pl2pm is a tool to aid in the conversion of Perl4-style .p
+plockstat
+pluginkit: pluginkit manages the PlugInKit subsystem for the current user
+plutil: plutil can be used to check the syntax of property list files, or convert a plist file from one format to another
+pmset: pmset manages power management settings such as idle sleep timing, wake on administrative access, automatic restart on power loss, etc
+png-fix-itxt
+pngfix
+pod2html: Converts files from pod format (see perlpod) to HTML format
+pod2html5.18: Converts files from pod format (see perlpod) to HTML format
+pod2html5.28: Converts files from pod format (see perlpod) to HTML format
+pod2latex: "pod2latex" is a program to convert POD format documentation (perlpod) into latex
+pod2latex5.18: "pod2latex" is a program to convert POD format documentation (perlpod) into latex
+pod2man: pod2man is a front-end for Pod::Man, using it to generate *roff input from POD source
+pod2man5.18: pod2man is a front-end for Pod::Man, using it to generate *roff input from POD source
+pod2man5.28: pod2man is a front-end for Pod::Man, using it to generate *roff input from POD source
+pod2readme
+pod2readme5.18
+pod2readme5.28
+pod2text: pod2text is a front-end for Pod::Text and its subclasses
+pod2text5.18: pod2text is a front-end for Pod::Text and its subclasses
+pod2text5.28: pod2text is a front-end for Pod::Text and its subclasses
+pod2usage: pod2usage will read the given input file looking for pod documentation and will print the corresponding usage message
+pod2usage5.18: pod2usage will read the given input file looking for pod documentation and will print the corresponding usage message
+pod2usage5.28: pod2usage will read the given input file looking for pod documentation and will print the corresponding usage message
+podchecker: podchecker will read the given input files looking for POD syntax errors in the POD documentation and will print any errors it find to STDERR
+podchecker5.18: podchecker will read the given input files looking for POD syntax errors in the POD documentation and will print any errors it find to STDERR
+podchecker5.28: podchecker will read the given input files looking for POD syntax errors in the POD documentation and will print any errors it find to STDERR
+podselect: podselect will read the given input files looking for pod documentation and will print out (in raw pod format) all sections that match one ore more of the given section specifications
+podselect5.18: podselect will read the given input files looking for pod documentation and will print out (in raw pod format) all sections that match one ore more of the given section specifications
+podselect5.28: podselect will read the given input files looking for pod documentation and will print out (in raw pod format) all sections that match one ore more of the given section specifications
+policytool: The policy for a Java runtime (specifying which permissions are avail- able for code from various sources, when executing as various princi- pals) is represented by a Policy object
+popd: Shell builtin commands are commands that can be executed within the run- ning shell's process
+post-grohtml: The grohtml front end (which consists of a preprocessor, pre-grohtml, and a device driver, post-grohtml) translates the output of GNU troff to html
+postalias: The postalias(1) command creates or queries one or more Postfix alias databases, or updates an existing one
+postcat: The postcat(1) command prints the contents of the named files in human-readable form
+postconf: By default, the postconf(1) command displays the values of main.c
+postdrop: The postdrop(1) command creates a file in the maildrop directory and copies its standard input to the file
+postfix: This command is reserved for the superuser
+postkick: The postkick(1) command sends request to the specified service over a local transport channel
+postlock: The postlock(1) command locks file for exclusive access, and executes command
+postlog: The postlog(1) command implements a Postfix-compatible logging inter- face for use in, for example, shell scripts
+postmap: The postmap(1) command creates or queries one or more Postfix lookup tables, or updates an existing one
+postmulti: The postmulti(1) command allows a Postfix administrator to manage mul- tiple Postfix instances on a single host
+postqueue: The postqueue(1) command implements the Postfix user interface for queue management
+postsuper: The postsuper(1) command does maintenance jobs on the Postfix queue
+power_report.sh
+powermetrics: powermetrics gathers and display CPU usage statistics (divided into time spent in user mode and supervisor mode), timer and interrupt wakeup fre- quency (total and, for near-idle workloads, those that resulted in pack- age idle exits), and on supported platforms, interrupt frequencies (cate- gorized by CPU number), package C-state statistics (an indication of the time the core complex + integrated graphics, if any, were in low-power idle states), as well as the average execution frequency for each CPU when not idle
+ppdc: ppdc compiles PPDC source files into one or more PPD files
+ppdhtml: ppdhtml reads a driver information file and produces a HTML summary page that lists all of the drivers in a file and the supported options
+ppdi: ppdi imports one or more PPD files into a PPD compiler source file
+ppdmerge: ppdmerge merges two or more PPD files into a single, multi-language PPD file
+ppdpo: ppdpo extracts UI strings from PPDC source files and updates either a GNU gettext or macOS strings format message catalog source file for translation
+ppm2tiff: ppm2tiff converts a file in the PPM, PGM and PBM image formats to TIFF
+pppd: PPP is the protocol used for establishing internet links over dial-up modems, DSL connections, and many other types of point-to-point links
+pr: The pr utility is a printing and pagination filter for text files
+praudit: The praudit utility prints the contents of the audit trail files to the standard output in human-readable form
+pre-grohtml: The grohtml front end (which consists of a preprocessor, pre-grohtml, and a device driver, post-grohtml) translates the output of GNU troff to html
+priclass.d: This is a simple DTrace script that samples at 1000 Hz the current thread's scheduling class and priority
+pridist.d: This is a simple DTrace script that samples at 1000 Hz which process is on the CPUs, and what the priority is
+printenv: The printenv utility prints out the names and values of the variables in the environment, with one name/value pair per line
+printf: The printf utility formats and prints its arguments, after the first, under control of the format
+printf: The printf utility formats and prints its arguments, after the first, under control of the format
+procsystime: procsystime prints details on system call times for processes, both the elapsed times and on-cpu times can be printed
+productbuild: A product archive is a flat file with a .pk
+productsign: productsign adds a digital signature to a product archive previously cre- ated with productbuild(1)
+profiles: profiles is used to install, remove, list, or otherwise handle various profile types on macOS
+prove
+prove5.18
+prove5.28
+ps: The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals
+psed: A stream editor reads the input stream consisting of the specified files (or standard input, if none are given), processes is line by line by applying a script consisting of edit commands, and writes resulting lines to standard output
+psed5.18: A stream editor reads the input stream consisting of the specified files (or standard input, if none are given), processes is line by line by applying a script consisting of edit commands, and writes resulting lines to standard output
+psicc
+pstopdf: pstopdf is a tool to convert PostScript input data into a PDF document
+pstruct: The following is the old c2ph.do
+pstruct5.18: The following is the old c2ph.do
+ptar: ptar is a small, tar look-alike program that uses the perl module Archive::Tar to extract, create and list tar archives
+ptar5.18: ptar is a small, tar look-alike program that uses the perl module Archive::Tar to extract, create and list tar archives
+ptar5.28: ptar is a small, tar look-alike program that uses the perl module Archive::Tar to extract, create and list tar archives
+ptardiff: ptardiff is a small program that diffs an extracted archive against an unextracted one, using the perl module Archive::Tar
+ptardiff5.18: ptardiff is a small program that diffs an extracted archive against an unextracted one, using the perl module Archive::Tar
+ptardiff5.28: ptardiff is a small program that diffs an extracted archive against an unextracted one, using the perl module Archive::Tar
+ptargrep: This utility allows you to apply pattern matching to the contents of files contained in a tar archive
+ptargrep5.18: This utility allows you to apply pattern matching to the contents of files contained in a tar archive
+ptargrep5.28: This utility allows you to apply pattern matching to the contents of files contained in a tar archive
+purge: Purge can be used to approximate initial boot conditions with a cold disk buffer cache for performance analysis
+pushd: Shell builtin commands are commands that can be executed within the run- ning shell's process
+pwd: The pwd utility writes the absolute pathname of the current working directory to the standard output
+pwd: The pwd utility writes the absolute pathname of the current working directory to the standard output
+pwd_mkdb: pwd_mkdb creates db(3) style secure and insecure databases for the speci- fied file
+pwhich: `pwhich' is a command-line utility program for finding paths to other programs based on the user's "PATH"
+pwhich5.18: `pwhich' is a command-line utility program for finding paths to other programs based on the user's "PATH"
+pwhich5.28: `pwhich' is a command-line utility program for finding paths to other programs based on the user's "PATH"
+pwpolicy: pwpolicy manipulates password policies
+pydoc: pydoc shows text documentation on something related to python(1)
+pydoc2.7: pydoc shows text documentation on something related to python(1)
+pydoc3
+pydoc3
+pydoc3.7
+pydoc3.8
+pydoc3.8
+pytesseract
+python: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python-config
+python2
+python2.7: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python2.7-config
+python3: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python3: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python3: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python3-config
+python3-config
+python3.7
+python3.7-config
+python3.7m
+python3.7m-config
+python3.8: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python3.8: Python is an interpreted, interactive, object-oriented programming lan- guage that combines remarkable power with very clear syntax
+python3.8-config
+python3.8-config
+pythonw: pythonw is used to run python scripts that may display a graphical user interface (GUI)
+pythonw2.7: pythonw is used to run python scripts that may display a graphical user interface (GUI)
+pyvenv
+pyvenv-3.7
+qlmanage: qlmanage allows you to test your Quick Look generators and manage Quick Look Server
+quota: Quota displays users' disk usage and limits
+quotacheck: Quotacheck examines each filesystem, builds a table of current disk usage, and compares this table against that recorded in the disk quota file for the filesystem
+quotaoff: Quotaon announces to the system that disk quotas should be enabled on one or more filesystems
+quotaon: Quotaon announces to the system that disk quotas should be enabled on one or more filesystems
+racoon: racoon is used to setup and maintain an IPSec tunnel or transport chan- nel, between two devices, over which network traffic is conveyed securely
+rails
+rake
+ranlib: The libtool command takes the specified input object files and creates a library for use with the link editor, ld(1)
+rarpd: Rarpd services Reverse ARP requests on the Ethernet connected to interface
+raw2tiff: raw2tiff converts a raw byte sequence into TIFF
+rdjpgcom: rdjpgcom reads the named JPEG/JFIF file, or the standard input if no file is named, and prints any text comments found in the file on the standard output
+rdoc
+read: Shell builtin commands are commands that can be executed within the run- ning shell's process
+read: Shell builtin commands are commands that can be executed within the run- ning shell's process
+readlink: The stat utility displays information about the file pointed to by file
+readonly: Shell builtin commands are commands that can be executed within the run- ning shell's process
+rebase
+reboot: The halt and reboot utilities flush the file system cache to disk, send all running processes a SIGTERM (and subsequently a SIGKILL) and, respec- tively, halt or restart the system
+redo_prebinding
+refer: This file documents the GNU version of refer, which is part of the groff document formatting system
+renice: The renice utility alters the scheduling priority of one or more running processes
+repairHomePermissions
+repquota: Repquota prints a summary of the disk usage and quotas for the specified file systems
+reset: The tput utility uses the terminfo database to make the values of ter- minal-dependent capabilities and information available to the shell (see sh(1)), to initialize or reset the terminal, or return the long name of the requested terminal type
+resgen: Convert a resource file from one format to another
+resgen2
+resolveLinks
+return: Shell builtin commands are commands that can be executed within the run- ning shell's process
+rev: The rev utility copies the specified files to the standard output, reversing the order of characters in every line
+ri: ri is a command-line front end for the Ruby API reference
+rm: The rm utility attempts to remove the non-directory type files specified on the command line
+rmdir: The rmdir utility removes the directory entry specified by each directory argument, provided it is empty
+rmic: The rmic compiler generates stub and skeleton class files (JRMP proto- col) and stub and tie class files (IIOP protocol) for remote objects
+rmid: The rmid tool starts the activation system daemon
+rmiregistry: The rmiregistry command creates and starts a remote object registry on the specified port on the current host
+rotatelogs
+rotatelogs
+route: Route is a utility used to manually manipulate the network routing tables
+rpc.lockd: The rpc.lock
+rpc.statd: The rpc.stat
+rpcbind: Rpcbind is a server that converts RPC program numbers into DARPA protocol port numbers
+rpcgen: rpcgen is a tool that generates C code to implement an RPC protocol
+rpcinfo: rpcinfo makes an RPC call to an RPC server and reports what it finds
+rs: The rs utility reads the standard input, interpreting each line as a row of blank-separated entries in an array, transforms the array according to the options, and writes it on the standard output
+rsync: rsync is a program that behaves in much the same way that rcp does, but has many more options and uses the rsync remote-update protocol to greatly speed up file transfers when the destination file is being updated
+rtadvd: rtadvd sends router advertisement packets to the specified interfaces
+rtsol: rtsold is the daemon program to send ICMPv6 Router Solicitation messages on the specified interfaces
+rtsold: rtsold is the daemon program to send ICMPv6 Router Solicitation messages on the specified interfaces
+ruby: Ruby is an interpreted scripting language for quick and easy object-ori- ented programming
+rview: Vim is a text editor that is upwards compatible to Vi
+rvim: Vim is a text editor that is upwards compatible to Vi
+rwbypid.d: This script tracks the number of reads and writes at the syscall level by processes, printing the totals in a report
+rwbytype.d: This program identifies the vnode type of read/write activity - whether that is for regular files, sockets, character special devices, etc
+rwsnoop: This is measuring reads and writes at the application level
+s2p: A stream editor reads the input stream consisting of the specified files (or standard input, if none are given), processes is line by line by applying a script consisting of edit commands, and writes resulting lines to standard output
+s2p5.18: A stream editor reads the input stream consisting of the specified files (or standard input, if none are given), processes is line by line by applying a script consisting of edit commands, and writes resulting lines to standard output
+sa: The sa utility reports on, cleans up, and generally maintains system accounting files
+safaridriver: The safaridriver utility is used to launch an HTTP server that implements the Selenium WebDriver REST API
+sample: sample is a command-line tool for gathering data about the running behav- ior of a process
+sampleproc: This program samples which process is on each CPU, at a particular con- figurable rate
+sandbox-exec: The sandbox-exec command is DEPRECATED
+say: This tool uses the Speech Synthesis manager to convert input text to audible speech and either play it through the sound output device chosen in System Preferences or save it to an AIFF file
+sc_auth: sc_auth configures a local user account to permit authentication using a supported SmartCard
+sc_usage: sc_usage displays an ongoing sample of system call and page fault usage statistics for a given process in a ``top-like'' fashion
+scandeps.pl: scandeps.p
+scandeps5.18.pl
+scandeps5.28.pl
+schemagen
+scp: scp copies files between hosts on a network
+screen
+screencapture: The screencapture utility is not very well documented to date
+script: The script utility makes a typescript of everything printed on your ter- minal
+scselect: scselect provides access to the system configuration sets, commonly referred to as "locations"
+scutil: Invoked with no options, scutil provides a command line interface to the "dynamic store" data maintained by configd(8)
+sdef
+sdiff: Side-by-side merge of file differences
+sdp
+sdx: sdx combines a number of functions into a single command-line developer utility
+security: A simple command line interface which lets you administer keychains, manipulate keys and certificates, and do just about anything the Security framework is capable of from the command line
+securityd: securityd maintains security contexts and arbitrates cryptographic opera- tions
+secutil: Extract X.50
+sed: The sed utility reads the specified files, or the standard input if no files are specified, modifying the input as specified by a list of com- mands
+seeksize.d: seeksize.
+segedit: segedit extracts or replaces named sections from the input_file
+select: select() examines the I/O descriptor sets whose addresses are passed in readfds, writefds, and errorfds to see if some of their descriptors are ready for reading, are ready for writing, or have an exceptional condi- tion pending, respectively
+sendmail: The Postfix sendmail(1) command implements the Postfix to Sendmail com- patibility interface
+seq: The seq utility prints a sequence of numbers, one per line (default), from first (default 1), to near last as possible, in increments of incr (default 1)
+serialver: serialver returns the serialVersionUID for one or more classes in a form suitable for copying into an evolving class
+serverinfo
+servertool: The servertool provides the command-line interface for the application programmers to register, unregister, startup, and shutdown a server
+set: Shell builtin commands are commands that can be executed within the run- ning shell's process
+setkey: setkey adds, updates, dumps, or flushes Security Association Database (SAD) entries as well as Security Policy Database (SPD) entries in the kernel
+setquota: setquota provides several options for creating and updating home direc- tory quotas
+setreg: Allow to configure some optional settings for public key cryptography parameters used in Mono
+setregion: setregion is used by the DVD Player to set the disc region code for a DVD drive
+setuids.d: setuids.
+sfltool: sfltool a tool for testing and debugging SharedFileList
+sftp: sftp is a file transfer program, similar to ftp(1), which performs all operations over an encrypted ssh(1) transport
+sgen: Generates pre-compilable custom XML serializer classes for specific types
+sh: sh is a POSIX-compliant command interpreter (shell)
+shar: shar writes an sh(1) shell script to the standard output which will recreate the file hierarchy specified by the command line operands
+sharing: A list of flags and their descriptions: -a <path> Add a new share point for the directory specified by <path>
+shasum: Running shasum is often the quickest way to compute SHA message digests
+shasum5.18: Running shasum is often the quickest way to compute SHA message digests
+shasum5.28: Running shasum is often the quickest way to compute SHA message digests
+shift: Shell builtin commands are commands that can be executed within the run- ning shell's process
+shlock: The shlock command can create or verify a lock file on behalf of a shell or other script program
+shopt
+showmount: showmount shows status information about the NFS server on host
+shutdown: The shutdown utility provides an automated shutdown procedure for super- users to nicely notify users when the system is shutting down, saving them from system administrators, hackers, and gurus, who would otherwise not bother with such niceties
+sigdist.d: This is a simple DTrace script that prints the number of signals recieved by process and signal number
+signcode: Digitally sign an PE executable (CLR assembly, Win32 EXE or DLL) using an X.50
+sips: This tool is used to query or modify raster image files and ColorSync ICC profiles
+size: Size (without the -m option) prints the (decimal) number of bytes required by the __TEXT, __DATA and __OBJC segments
+skywalkctl: skywalkctl is a utility used to interact with the Skywalk subsystem, which provides the plumbing between various networking-related pieces of software and hardware
+slapacl: slapacl is used to check the behavior of slapd(8) by verifying access to directory data according to the access control list directives defined in its configuration
+slapadd: Slapadd is used to add entries specified in LDAP Directory Interchange Format (LDIF) to a slapd(8) database
+slapauth: Slapauth is used to check the behavior of the slapd in mapping identi- ties for authentication and authorization purposes, as specified in slapd.conf(5)
+slapcat: Slapcat is used to generate an LDAP Directory Interchange Format (LDIF) output based upon the contents of a slapd(8) database
+slapconfig: slapconfig is a utility for configuring slapd
+slapdn: Slapdn is used to check the conformance of a DN based on the schema defined in slapd(8) and that loaded via slapd.conf(5)
+slapindex: Slapindex is used to regenerate slapd(8) indices based upon the current contents of a database
+slappasswd: Slappasswd is used to generate an userPassword value suitable for use with ldapmodify(1), slapd.conf(5
+slapschema: Slapschema is used to check schema compliance of the contents of a slapd(8) database
+slaptest: Slaptest is used to check the conformance of the slapd(8) configura- tion
+sleep: The sleep command suspends execution for a minimum of seconds
+slogin
+smbd: smbd runs on a server machine to service SMB protocol requests from SMB client machines
+smbdiagnose: The smbdiagnose tool gathers system information and network traffic in order to assist Apple when investigating issues related to SMB file shar- ing
+smbutil: The smbutil command is used to control SMB requester and issue various commands
+smtpd.py
+smtpd2.7.py
+sn: Digitally sign, verify or compare CLR assemblies using strongnames
+sncfginstall: The sncfginstall program will install a Xsan file system configuration file into the proper location, after validating that it is a valid con- fig file, and comparing it against an already existing config file for the named file system if one exists
+sncfgquery
+sncfgremove: The sncfgremove program will remove a Xsan file system configuration file, archiving it to /Library/Logs/Xsan/data/VolName/config_history/ in the process
+sncfgtemplate: The sncfgtemplate program will output a template Xsan file system con- figuration file with the given name to stdout
+sncfgvalidate: The sncfgvalidate program will validate a Xsan file system configura- tion file
+sndiskmove: sndiskmove is a utility for migrating the contents of a disk to a new disk
+snfsdefrag: snfsdefrag is a utility for defragmenting files on a Xsan volume by re- locating the data in a file to a smaller set of extents
+snmp-bridge-mib: The snmp-bridge-mib is an extension to net-snmp
+snmpbulkget: snmpbulkget is an SNMP application that uses the SNMP GETBULK request to query a network entity efficiently for information
+snmpbulkwalk: snmpbulkwalk is an SNMP application that uses SNMP GETBULK requests to query a network entity efficiently for a tree of information
+snmpconf: snmpconf is a simple Perl script that walks you through setting up a configuration file step by step
+snmpd: snmpd is an SNMP agent which binds to a port and awaits requests from SNMP management software
+snmpdelta: snmpdelta will monitor the specified integer valued OIDs, and report changes over time
+snmpdf: snmpdf is simply a networked verison of the typical df command
+snmpget: snmpget is an SNMP application that uses the SNMP GET request to query for information on a network entity
+snmpgetnext: snmpget is an SNMP application that uses the SNMP GETNEXT request to query for information on a network entity
+snmpinform: snmptrap is an SNMP application that uses the SNMP TRAP operation to send information to a network manager
+snmpnetstat: The snmpnetstat command symbolically displays the values of various network-related information retrieved from a remote system using the SNMP protocol
+snmpset: snmpset is an SNMP application that uses the SNMP SET request to set information on a network entity
+snmpstatus: snmpstatus is an SNMP application that retrieves several important sta- tistics from a network entity
+snmptable: snmptable is an SNMP application that repeatedly uses the SNMP GETNEXT or GETBULK requests to query for information on a network entity
+snmptest: snmptest is a flexible SNMP application that can monitor and manage information on a network entity
+snmptranslate: snmptranslate is an application that translates one or more SNMP object identifier values from their symbolic (textual) forms into their numer- ical forms (or vice versa)
+snmptrap: snmptrap is an SNMP application that uses the SNMP TRAP operation to send information to a network manager
+snmptrapd: snmptrapd is an SNMP application that receives and logs SNMP TRAP and INFORM messages
+snmpusm: snmpusm is an SNMP application that can be used to do simple mainte- nance on the users known to an SNMP agent, by manipulating the agent's User-based Security Module (USM) table
+snmpvacm: snmpvacm is an SNMP application that can be used to do simple mainte- nance on the View-based Control Module (VACM) tables of an SNMP agent
+snmpwalk: snmpwalk is an SNMP application that uses SNMP GETNEXT requests to query a network entity for a tree of information
+sntp: sntp can be used as an SNTP client to query a NTP or SNTP server and either display the time or set the local system's time (given suitable privilege)
+soapsuds: soapsuds is a tool for generating WSDL documents and client proxies for remoting services
+soelim: soelim reads files and replaces lines of the form .s
+softwareupdate: Software Update checks for new and updated versions of your software based on information about your computer and current software
+sort: The sort utility sorts text and binary files by lines
+source: Shell builtin commands are commands that can be executed within the run- ning shell's process
+spctl: spctl manages the security assessment policy subsystem
+spfd: spfd is a simple forking Sender Policy Framework (SPF) query proxy server
+spfd5.18: spfd is a simple forking Sender Policy Framework (SPF) query proxy server
+spfd5.28: spfd is a simple forking Sender Policy Framework (SPF) query proxy server
+spfquery: spfquery checks if a given set of e-mail parameters (e.g.
+spfquery5.18: spfquery checks if a given set of e-mail parameters (e.g.
+spfquery5.28: spfquery checks if a given set of e-mail parameters (e.g.
+spindump: spindump is used by various system components to create reports when an unresponsive application is force quit
+splain: The "diagnostics" Pragma This module extends the terse diagnostics normally emitted by both the perl compiler and the perl interpreter (from running perl with a -w switch or "use warnings"), augmenting them with the more explicative and endearing descriptions found in perldiag
+splain5.18: The "diagnostics" Pragma This module extends the terse diagnostics normally emitted by both the perl compiler and the perl interpreter (from running perl with a -w switch or "use warnings"), augmenting them with the more explicative and endearing descriptions found in perldiag
+splain5.28: The "diagnostics" Pragma This module extends the terse diagnostics normally emitted by both the perl compiler and the perl interpreter (from running perl with a -w switch or "use warnings"), augmenting them with the more explicative and endearing descriptions found in perldiag
+split: The split utility reads the given file and breaks it up into files of 1000 lines each
+spray: Spray sends multiple RPC packets to host and records how many of them were correctly received and how long it took
+sqlite3: To start a sqlite3 interactive session, invoke the sqlite3 command and optionally provide the name of a database file
+sqlmetal
+sqlsharp: sqlsharp is a Mono SQL tool used for entering SQL queries to a database using Mono data providers
+ssh: ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine
+ssh-add: ssh-add adds private key identities to the authentication agent, ssh-agent(1)
+ssh-agent: ssh-agent is a program to hold private keys used for public key authenti- cation (RSA, DSA, ECDSA, Ed25519)
+ssh-copy-id: ssh-copy-id is a script that uses ssh(1) to log into a remote machine (presumably using a login password, so password authentication should be enabled, unless you've done some clever use of multiple identities)
+ssh-keygen: ssh-keygen generates, manages and converts authentication keys for ssh(1)
+ssh-keyscan: ssh-keyscan is a utility for gathering the public SSH host keys of a num- ber of hosts
+sshd: sshd (OpenSSH Daemon) is the daemon program for ssh(1)
+sso_util: sso_util is a tool for setting up, interrogating and removing Kerberos configurations within the Apple Single Sign On environment
+stapler: The stapler utility attaches tickets for notarized executables to app bundles, disk images, and packages
+stat: The stat utility displays information about the file pointed to by file
+stringdups: stringdups examines the content of malloc blocks in the specified target process
+strings: Strings looks for ASCII strings in a binary file or standard input
+strip: strip removes or modifies the symbol table attached to the output of the assembler and link editor
+stty: The stty utility sets or reports on terminal characteristics for the device that is its standard input
+stty.pl
+stty5.18.pl
+stty5.28.pl
+su: The su utility requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser)
+sudo: sudo allows a permitted user to execute a command as the superuser or another user, as specified by the security policy
+suexec
+sum: The cksum utility writes to the standard output three whitespace sepa- rated fields for each input file
+suspend: Shell builtin commands are commands that can be executed within the run- ning shell's process
+svcutil
+svn
+svnlook
+svnversion
+sw_vers: sw_vers prints version information about the Mac OS X or Mac OS X Server operating system running on the local machine
+sweep: SWEEP is a threat scanner that detects viruses, worms and Trojans, and disinfects both program and document files
+swift: Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns
+swiftc
+symbols: The symbols command may be used to examine library, symbol, and source line information in files and running processes
+symbolscache: The symbolscache command may be used to list, add, and delete entries from the global symbolscache
+sync: The sync utility can be called to ensure that all disk writes have been completed before the processor is halted in a way not suitably done by shutdown(8)
+sysadminctl
+syscallbypid.d: This reports the number of each type of system call made by PID
+syscallbyproc.d: syscallbyproc.
+syscallbysysc.d: syscallbysysc.
+sysctl: The sysctl utility retrieves kernel state and allows processes with appropriate privilege to set kernel state
+sysdiagnose: The sysdiagnose tool gathers system diagnostic information helpful in investigating system performance issues
+syslog: syslog is a command-line utility for a variety of tasks relating to the Apple System Log (ASL) facility
+syslogd: The syslogd server receives and processes log messages
+system_profiler: system_profiler reports on the hardware and software configuration of the system
+systemextensionsctl: The systemextensionsctl program can be used to list and control System Extensions installed on this machine
+systemkeychain: The systemkeychain can be used to create a system keychain, make it pos- sible for a keychain to unlock another keychain, or test unlocking a key- chain
+systemsetup: The systemsetup command is used to configure certain per-machine settings typically configured in the System Preferences application
+systemsoundserverd: systemsoundserverd is a daemon used for Core Audio related purposes
+systemstats: The systemstats command shows a selection of statistics about system power usage
+tab2space: tab2space expands tab characters into a specific number of spaces
+tabs: The tabs utility displays a series of characters that clear the hardware terminal tab settings then initialises tab stops at specified positions, and optionally adjusts the margin
+tail: The tail utility displays the contents of file or, by default, its stan- dard input, to the standard output
+tailspin: tailspin configures the system to continuously sample callstacks of pro- cesses and select kdebug events in the kernel trace buffer
+talk: The talk utility is a visual communication program which copies lines from your terminal to that of another user
+tar: tar creates and manipulates streaming archive files
+taskinfo: The taskinfo utility gathers and displays policy information from the kernel
+taskpolicy: The taskpolicy program uses the setiopolicy_np(3) and setpriority(2) APIs to execute a program with altered I/O or scheduling policies
+tbl: This manual page describes the GNU version of tbl, which is part of the groff document formatting system
+tbtdiagnose: Use tbtdiagnose to collect diagnostic information to help with investiga- tion of Thunderbolt issues
+tccutil: The tccutil command manages the privacy database, which stores decisions the user has made about whether apps may access personal data
+tclsh: Tclsh is a shell-like application that reads Tcl commands from its standard input or from a file and evaluates them
+tclsh8.5: Tclsh is a shell-like application that reads Tcl commands from its standard input or from a file and evaluates them
+tcpdump: Tcpdump prints out a description of the contents of packets on a net- work interface that match the boolean expression; the description is preceded by a time stamp, printed, by default, as hours, minutes, sec- onds, and fractions of a second since midnight
+tcsh: tcsh is an enhanced but completely compatible version of the Berkeley UNIX C shell, csh(1)
+tee: The tee utility copies standard input to standard output, making a copy in zero or more files
+tesseract
+test: The test utility evaluates the expression and, if it evaluates to true, returns a zero (true) exit status; otherwise it returns 1 (false)
+test: The test utility evaluates the expression and, if it evaluates to true, returns a zero (true) exit status; otherwise it returns 1 (false)
+texi2dvi: Run each Texinfo or LaTeX FILE through TeX in turn until all cross-ref- erences are resolved, building all indices
+texi2pdf
+texindex: Generate a sorted index for each TeX output FILE
+textutil: textutil can be used to manipulate text files of various formats, using the mechanisms provided by the Cocoa text system
+tfmtodit: tfmtodit creates a font file for use with groff -Tdvi
+tftp: The tftp utility is the user interface to the Internet TFTP (Trivial File Transfer Protocol), which allows users to transfer files to and from a remote machine
+then: Shell builtin commands are commands that can be executed within the run- ning shell's process
+thermal
+tic: The command tic translates a terminfo file from source format into com- piled format
+tidy: Tidy reads HTML, XHTML and XML files and writes cleaned up markup
+tiff2bw: Tiff2bw converts an RGB or Palette color TIFF image to a greyscale image by combining percentages of the red, green, and blue channels
+tiff2icns: tiff2icns can be used to convert TIFF images to 'icns' files used by Icon Services
+tiff2pdf: tiff2pdf opens a TIFF image and writes a PDF document to standard out- put
+tiff2ps: tiff2ps reads TIFF images and writes PostScript or Encapsulated Post- Script (EPS) on the standard output
+tiff2rgba: Tiff2rgba converts a wide variety of TIFF images into an RGBA TIFF image
+tiffcmp: Tiffcmp compares the tags and data in two files created according to the Tagged Image File Format, Revision 6.0
+tiffcp: tiffcp combines one or more files created according to the Tag Image File Format, Revision 6.
+tiffcrop: Tiffcrop processes one or more files created according to the Tag Image File Format, Revision 6.0
+tiffdither: tiffdither converts a single channel 8-bit greyscale image to a bilevel image using Floyd-Steinberg error propagation with thresholding
+tiffdump: tiffdump displays directory information from files created according to the Tag Image File Format, Revision 6.0
+tiffinfo: Tiffinfo displays information about files created according to the Tag Image File Format, Revision 6.0
+tiffmedian: tiffmedian applies the median cut algorithm to an RGB image in input.ti
+tiffset: Tiffset sets the value of a TIFF header to a specified value or removes an existing setting
+tiffsplit: tiffsplit takes a multi-directory (page) TIFF file and creates one or more single-directory (page) TIFF files from it
+tiffutil: tiffutil lets you manipulate TIFF files
+tificc: lcms is a standalone CMM engine, which deals with the color management
+time: The time utility executes and times utility
+time: The time utility executes and times utility
+timer_analyser.d
+timerfires: The timerfires utility lists timers as they fire
+times: Shell builtin commands are commands that can be executed within the run- ning shell's process
+timesyncanalyse: The timesyncanalyse executable is used for analysis of test data for time synchronization testing
+tkcon: TkCon is a replacement for the standard console that comes with Tk (on Windows/Mac, but also works on Unix)
+tkmib: Simple Network Management Protocol (SNMP) provides a framework for exchange of the management information between the agents (servers) and clients
+tmdiagnose: The tmdiagnose tool gathers system and backup information in order to assist Apple when investigating issues related to Time Machine
+tmutil: tmutil provides methods of controlling and interacting with Time Machine, as well as examining and manipulating Time Machine backups
+tnameserv: The CORBA COS (Common Object Services) Naming Service provides a tree- like directory for object references much like a filesystem provides a directory structure for files
+toe: With no options, toe lists all available terminal types by primary name with descriptions
+top: The top program periodically displays a sorted list of system processes
+tops: tops is a tool that performs in-place substitutions on source files according to a set of rules
+topsyscall: This program continually prints a report of the top system calls, and refreshes the display every 1 second or as specified at the command line
+topsysproc: This program continually prints a report of the number of system calls by process name, and refreshes the display every 1 second or as speci- fied at the command line
+touch: The touch utility sets the modification and access times of files
+tpctl: RETURN VALUES return 0 on success, all other exit code are failures
+tput: The tput utility uses the terminfo database to make the values of ter- minal-dependent capabilities and information available to the shell (see sh(1)), to initialize or reset the terminal, or return the long name of the requested terminal type
+tr: The tr utility copies the standard input to the standard output with sub- stitution or deletion of selected characters
+trace: trace initializes and configures the kernel trace subsystem
+traceroute: The Internet is a large and complex aggregation of network hardware, con- nected together by gateways
+traceroute6: The traceroute6 utility uses the IPv6 protocol hop limit field to elicit an ICMPv6 TIME_EXCEEDED response from each gateway along the path to some host
+transicc
+trap: Shell builtin commands are commands that can be executed within the run- ning shell's process
+traptoemail: converts snmp traps into email messages
+treereg: "Treereg" translates a tree grammar specification file (default extension ".trg
+treereg5.18: "Treereg" translates a tree grammar specification file (default extension ".trg
+treereg5.28: "Treereg" translates a tree grammar specification file (default extension ".trg
+trimforce: trimforce enables sending TRIM commands to third-party drives attached to an AHCI controller
+troff: This manual page describes the GNU version of troff
+true: The true utility always returns with exit code zero
+true: The true utility always returns with exit code zero
+tset: Tset initializes terminals
+tsig-keygen: tsig-keygen and ddns-confgen are invocation methods for a utility that generates keys for use in TSIG signing
+tsort: tsort takes a list of pairs of node names representing directed arcs in a graph and prints the nodes in topological order on standard output
+tty: The tty utility writes the name of the terminal attached to standard input to standard output
+type: Shell builtin commands are commands that can be executed within the run- ning shell's process
+type: Shell builtin commands are commands that can be executed within the run- ning shell's process
+typeset
+uasysdiagnose: uasysdiagone is used to dump a diagnostic state from useractivityd
+ul: The ul utility reads the named files (or standard input if none are given) and translates occurrences of underscores to the sequence which indicates underlining for the terminal in use, as specified by the envi- ronment variable TERM
+ulimit: Shell builtin commands are commands that can be executed within the run- ning shell's process
+ulimit: Shell builtin commands are commands that can be executed within the run- ning shell's process
+umask: Shell builtin commands are commands that can be executed within the run- ning shell's process
+umask: Shell builtin commands are commands that can be executed within the run- ning shell's process
+umount: The umount command calls the unmount(2) system call to remove a special device or the remote node (rhost:path) from the filesystem tree at the point node
+unalias: Shell builtin commands are commands that can be executed within the run- ning shell's process
+unalias: Shell builtin commands are commands that can be executed within the run- ning shell's process
+uname: The uname utility writes symbols representing one or more system charac- teristics to the standard output
+uncompress: The compress utility reduces the size of files using adaptive Lempel-Ziv coding
+unexpand: The expand utility processes the named files or the standard input writ- ing the standard output with tabs changed into blanks
+unifdef: The unifdef utility selectively processes conditional cpp(1) directives
+unifdefall: The unifdef utility selectively processes conditional cpp(1) directives
+uniq: The uniq utility reads the specified input_file comparing adjacent lines, and writes a copy of each unique input line to the output_file
+units: The units program converts quantities expressed in various scales to their equivalents in other scales
+universalaccessd: universalaccessd provides universal access services
+unlink: The rm utility attempts to remove the non-directory type files specified on the command line
+unpack200: The unpack200 tool is a native implementation that transforms a packed file produced by pack200(1) into a JAR file
+unset: Shell builtin commands are commands that can be executed within the run- ning shell's process
+unsetpassword
+until: Shell builtin commands are commands that can be executed within the run- ning shell's process
+unvis: The unvis utility is the inverse function of vis(1)
+unzip: unzip will list, test, or extract files from a ZIP archive, commonly found on MS-DOS systems
+unzipsfx: unzipsfx is a modified version of unzip(1L) designed to be prepended to existing ZIP archives in order to form self-extracting archives
+update_dyld_shared_cache: update_dyld_shared_cache ensures that dyld's shared cache is up-to-date
+update_dyld_shared_cache_root_mode
+uptime: The uptime utility displays the current time, the length of time the sys- tem has been up, the number of users, and the load average of the system over the last 1, 5, and 15 minutes
+usernoted: usernoted is a daemon that provides notification services on the system There are no options for usernoted, and users should not run usernoted manually
+users: users lists the login names of the users currently on the system, in sorted order, space separated, on a single line
+uuchk: The uuchk program displays information read from the UUCP configuration files
+uucico: The uucico daemon processes file transfer requests queued by uucp (1) and uux (1)
+uuconv: The uuconv program can be used to convert UUCP configuration files from one format to another
+uucp
+uudecode: The uuencode and uudecode utilities are used to transmit binary files over transmission mediums that do not support other than simple ASCII data
+uuencode: The uuencode and uudecode utilities are used to transmit binary files over transmission mediums that do not support other than simple ASCII data
+uuidgen: The uuidgen command generates a Universally Unique IDentifier (UUID), a 128-bit value guaranteed to be unique over both space and time
+uulog: The uulog program can be used to display entries in the UUCP log file
+uuname: By default, the uuname program simply lists the names of all the remote systems mentioned in the UUCP configuration files
+uupick: The uupick program is used to conveniently retrieve files transferred by the uuto program
+uusched: The uusched program is actually just a shell script which invokes the uucico daemon
+uustat: The uustat command can display various types of status information about the UUCP system
+uuto: The uuto program may be used to conveniently send files to a particular user on a remote system
+uux: The uux command is used to execute a command on a remote system, or to execute a command on the local system using files from remote systems
+uuxqt: The uuxqt daemon executes commands requested by uux (1) from either the local system or from remote systems
+vbc
+vbnc: (vbnc) is a CIL compiler for the VisualBasic.NE
+vbnc2
+vbox-img
+vboximg-mount
+vboxwebsrv
+vi: Vim is a text editor that is upwards compatible to Vi
+view: Vim is a text editor that is upwards compatible to Vi
+vifs: The vifs utility simply locks the fstab file before invoking an editor on it
+vim: Vim is a text editor that is upwards compatible to Vi
+vimdiff: Vimdiff starts Vim on two (or three or four) files
+vimtutor: Vimtutor starts the Vim tutor
+vipw: Vipw edits the password file after setting the appropriate locks, and does any necessary processing after the password file is unlocked
+vis: The vis utility is a filter for converting non-printable characters into a visual representation
+visudo: visudo edits the sudoers file in a safe fashion, analogous to vipw(8)
+vm_stat: vm_stat displays Mach virtual memory statistics
+vmmap: vmmap displays the virtual memory regions allocated in a specified process, helping a programmer understand how memory is being used, and what the purposes of memory at a given address may be
+vpnd: vpnd allows external hosts to tunnel via L2TP over IPSec or via PPTP from an insecure external network (such as the Internet) into a "secure" internal network, such as a corporate network
+vsdbutil: vsdbutil manipulates the volume status DB
+vtool: The vtool utility displays and edits build and source version numbers embedded in the Mach-O(5) file format
+w: The w utility prints a summary of the current activity on the system, including what each user is doing
+wait: Shell builtin commands are commands that can be executed within the run- ning shell's process
+wait: Shell builtin commands are commands that can be executed within the run- ning shell's process
+wait4path: The wait4path program simply checks to see if the given path exists, and if so, it exits
+wall: The wall utility displays the contents of file or, by default, its stan- dard input, on the terminals of all currently logged in users
+wc: The wc utility displays the number of lines, words, and bytes contained in each input file, or standard input (if no file is specified) to the standard output
+wdutil: wdutil provides functionality of the Wireless Diagnostics application in command line form
+webpinfo: This manual page documents the webpinfo command
+webpmux: This manual page documents the webpmux command
+wfsctl
+what: what reads each file name and searches for sequences of the form ``@(#)'', as inserted by the source code control system
+whatis: whatis searches a set of database files containing short descriptions of system commands for keywords and displays the result on the standard output
+whereis: The whereis utility checks the standard binary directories for the speci- fied programs, printing out the paths of any it finds
+which: The which utility takes a list of command names and searches the path for each executable file that would be run had these commands actually been invoked
+while: Shell builtin commands are commands that can be executed within the run- ning shell's process
+who: The who utility displays a list of all users currently logged on, showing for each user the login name, tty name, the date and time of login, and hostname if not local
+whoami: The whoami utility has been obsoleted by the id(1) utility, and is equiv- alent to ``id -un''
+whois: The whois utility looks up records in the databases maintained by several Network Information Centers (NICs)
+wish: Wish is a simple program consisting of the Tcl command language, the Tk toolkit, and a main program that reads commands from standard input or from a file
+wish8.5: Wish is a simple program consisting of the Tcl command language, the Tk toolkit, and a main program that reads commands from standard input or from a file
+write: The write utility allows you to communicate with other users, by copying lines from your terminal to theirs
+wrjpgcom: wrjpgcom reads the named JPEG/JFIF file, or the standard input if no file is named, and generates a new JPEG/JFIF file on standard output
+wsdl: wsdl is a tool for generating proxy classes that can be used to access to web services
+wsdl2
+wsgen: The wsgen tool generates JAX-WS portable artifacts used in JAX-WS web services
+wsimport: The wsimport tool generates JAX-WS portable artifacts, such as: o Service Endpoint Interface (SEI) o Service o Exception class mapped from wsdl:fault (if any) o Async Reponse Bean derived from response wsdl:message (if any) o JAXB generated value types (mapped java classes from schema types) These artifacts can be packaged in a WAR file with the WSDL and schema documents along with the endpoint implementation to be deployed
+xar: The XAR project aims to provide an easily extensible archive format
+xargs: The xargs utility reads space, tab, newline and end-of-file delimited strings from the standard input and executes utility with the strings as arguments
+xartutil
+xattr: The xattr command can be used to display, modify or remove the extended attributes of one or more files, including directories and symbolic links
+xattr-2.7
+xbuild: xbuild can be used to build MSBuild project files
+xcode-select: xcode-select controls the location of the developer directory used by xcrun(1), xcodebuild(1), cc(1), and other Xcode and BSD development tools
+xcodebuild
+xcrun: xcrun provides a means to locate or invoke developer tools from the command-line, without requiring users to modify Makefiles or otherwise take inconvenient measures to support multiple Xcode tool chains
+xcscontrol
+xcsdiagnose
+xed
+xgettext.pl: This program extracts translatable strings from given input files, or from STDIN if none are given
+xgettext5.18.pl
+xgettext5.28.pl
+xip: The xip tool is used to create a digitally signed archive
+xjc
+xml2-config: xml2-config is a tool that is used to determine the compile and linker flags that should be used to compile and link programs that use GNOME- XML
+xml2man
+xmlcatalog: xmlcatalog is a command line application allowing users to monitor and manipulate XML and SGML catalogs
+xmllint: The xmllint program parses one or more XML files, specified on the command line as XML-FILE (or the standard input if the filename provided is - )
+xpath
+xpath5.18
+xpath5.28
+xsanctl: xsanctl provides a basic control facility for the Xsan file system
+xscertadmin: Manage Certificate Revocation Lists (CRLs) in an Open Directory Environ- ment
+xsd: xsd is a tool for intended to complement the XML serialization support of Mono
+xslt-config
+xsltproc: xsltproc is a command line tool for applying XSLT stylesheets to XML documents
+xsp: XSP, mod-mono-server and fastcgi-mono-server are hosts for ASP.NET
+xsp2
+xsp4
+xsubpp: This compiler is typically run by the makefiles created by ExtUtils::MakeMaker or by Module::Build or other Perl module build tools
+xsubpp5.18: This compiler is typically run by the makefiles created by ExtUtils::MakeMaker or by Module::Build or other Perl module build tools
+xsubpp5.28: This compiler is typically run by the makefiles created by ExtUtils::MakeMaker or by Module::Build or other Perl module build tools
+xtractprotos
+xxd: xxd creates a hex dump of a given file or standard input
+yaa: yaa creates and manipulates YAA archives
+yacc: On Darwin, yacc is a wrapper for bison(1), equivalent to bison -y
+yes: yes outputs expletive, or, by default, ``y'', forever
+zcat: The gzip program compresses and decompresses files using Lempel-Ziv cod- ing (LZ77)
+zcmp: zcmp and zdiff are filters that invoke cmp(1) or diff(1) respectively to compare compressed files
+zdiff: zcmp and zdiff are filters that invoke cmp(1) or diff(1) respectively to compare compressed files
+zdump: The zdump utility prints the current time in each zonename named on the command line
+zegrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+zfgrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+zforce: The zforce utility renames gzip(1) files to have a `.gz
+zgrep: The grep utility searches any given input files, selecting lines that match one or more patterns
+zic: The zic utility reads text from the file(s) named on the command line and creates the time conversion information files specified in this input
+zip: zip is a compression and file packaging utility for Unix, VMS, MSDOS, OS/2, Windows 9x/NT/XP, Minix, Atari, Macintosh, Amiga, and Acorn RISC OS
+zipcloak: zipcloak encrypts all unencrypted entries in the zipfile
+zipdetails: Zipdetails displays information about the internal record structure of the zip file
+zipdetails5.18: Zipdetails displays information about the internal record structure of the zip file
+zipdetails5.28: Zipdetails displays information about the internal record structure of the zip file
+zipgrep: zipgrep will search files within a ZIP archive for lines matching the given string or pattern
+zipinfo: zipinfo lists technical information about files in a ZIP archive, most commonly found on MS-DOS systems
+zipnote: zipnote writes the comments in a zipfile to stdout
+zipsplit: zipsplit reads a zipfile and splits it into smaller zipfiles
+zless: zmore is a filter that allows the viewing of files compressed with Lem- pel-Ziv encoding
+zmore: zmore is a filter that allows the viewing of files compressed with Lem- pel-Ziv encoding
+znew: The znew utility uncompresses files compressed by compress(1) and recom- presses them with gzip(1)
+zprint: zprint displays data about Mach zones (allocation buckets)
+zsh: Zsh is a UNIX command interpreter (shell) usable as an interactive login shell and as a shell script command processor
+{
+}
