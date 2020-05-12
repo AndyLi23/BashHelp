@@ -1,6 +1,6 @@
 # BashHelp
 
-A Python3 script to help with finding commands for Bash and Zsh<br />Optimized for MacOS
+A Python3 script to help with finding commands for Bash and Zsh<br />Optimized for MacOS (<0.1 seconds)
 
 -Adding alias
 
