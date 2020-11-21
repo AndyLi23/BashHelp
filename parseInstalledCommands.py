@@ -1,8 +1,4 @@
 from subprocess import check_output
-from time import time
-
-# Start timer
-start = time()
 
 # Get all installed commands with compgen
 output = check_output('compgen -c', shell=True, executable='/bin/bash')
@@ -36,5 +32,3 @@ with open("./commands.txt", "w+") as fout:
             fout.write(command + "\n")
     fout.close()
 
-# Print time
-print("Parsing finished in %.2f" % (time()-start) + " seconds")
