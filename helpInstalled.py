@@ -70,7 +70,7 @@ class Help():
         # parse commands.txt for all installed commands
         self.commands_to_descr = {}
 
-        with open('/Users/andyli/Documents/Github/Personal/BashHelp/commands.txt', 'r') as f:
+        with open('./commands.txt', 'r') as f:
            utilities = f.read()
 
         for j in utilities.split("\n"):

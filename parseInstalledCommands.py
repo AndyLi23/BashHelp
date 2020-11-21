@@ -28,7 +28,7 @@ def getDesc(i):
             return desc
 
 # Write descriptions to file
-with open("/Users/andyli/Documents/Github/Personal/BashHelp/commands.txt", "w+") as fout:
+with open("./commands.txt", "w+") as fout:
     for command in commands:
         try:
             fout.write(command + ": " + getDesc(command) + "\n")
